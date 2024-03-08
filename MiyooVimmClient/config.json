@@ -1,0 +1,6 @@
+{
+	"label":"Miyoo Vimm Client",
+	"icon":"icon/icon.png",
+	"launch":"script/launch.sh",
+	"description":"A client for Vimm's Lair portal"
+}
