@@ -57,7 +57,8 @@ MENU="Choose one of the following options:"
 OPTIONS=(1 "Search by Vault ID"
          2 "Search by Platform"
          3 "Search by Name"
-         4 "Exit")
+		 4 "About"
+         5 "Exit")
 
 CHOICE=$($DIALOG --colors --no-lines \
 				--clear \
@@ -70,10 +71,10 @@ CHOICE=$($DIALOG --colors --no-lines \
 
 case $CHOICE in
         1)
-	    vaultId=$($DIALOG --no-lines --inputbox "Enter the Vault ID and press OK" 0 0 2>&1 >/dev/tty)
-	    if [ $? -eq 0 ]; then
+			vaultId=$($DIALOG --no-lines --inputbox "Enter the Vault ID and press OK" 0 0 2>&1 >/dev/tty)
+			if [ $? -eq 0 ]; then
             	search_vaultId
-	    fi
+			fi
             ;;
         2)
             search_platform
@@ -82,7 +83,11 @@ case $CHOICE in
             search_name
             ;;
         4)
-            longdialoginfo  "You quit Vimm's Lair Client."
+            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.1"
+			sleep 2
+            ;;
+        5)
+            longdialoginfo  "You quit Miyoo Vimm's Lair Client."
             sleep 1
             exit 0
             ;;
@@ -140,8 +145,32 @@ get_mediaId() {
 		sleep 1
 		return
 	fi
-	mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
 	fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
+	echo "$response" | tr ';' '\n' | grep -i "var media = .*" >> allMedia
+	while IFS= read -r line; do
+		id=$(echo "$line" | grep -o '"ID":[0-9]*' | awk -F':' '{print $2}')
+		goodTitle=$(echo "$line" | grep -o '"GoodTitle":"[^"]*"' | awk -F'"' '{print $4}')
+		row="$id) $goodTitle                                                "
+		echo $row >> tmpFile
+	done < allMedia
+	list=$(cat tmpFile)
+	rm -rf allMedia tmpFile
+	numLines=$(echo "$list" | wc -l)
+	if [ $numLines -gt 1 ]; then
+		mediaId=$($DIALOG --no-lines --inputbox "Found more discs or versions:\n\n$list\n\nEnter the media ID and press OK" 0 0 2>&1 >/dev/tty)
+		if [ $? -eq 0 ]; then
+			if [ "$mediaId" = "" ]; then
+				longdialoginfo "You didn't choose any media ID, the default one will be selected."
+				sleep 1
+				mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
+				return
+			fi
+			return
+		fi
+		longdialoginfo "You didn't choose any media ID, the default one will be selected."
+		sleep 1
+	fi
+	mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
 }
 
 get_filePath() {
