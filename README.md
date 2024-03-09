@@ -75,7 +75,7 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
    - Allow user to search game by Platform (there are 16 available and compatible with OnionOS)
    - Allow user to search game by Name (it's possible to specify the starting chars or a contained substring)
    - Any search can return maximum 20 hits (so try to be use specific keyword to reduce the matches)
-   - Allow user to uncompress both zip and 7z archives (when you choose to uncompress the app will create a folder with same name game)
+   - Allow user to uncompress both zip and 7z archives (when you choose to uncompress the app will create a folder with same name of downloaded game and remove the zipped file)
    - Allow user to download both game and box Art and place them into correct MMP folder according to Platform (it follows the Emu mapping of OnionOS)
 
 ---
