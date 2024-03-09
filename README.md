@@ -1,5 +1,5 @@
-# MiyooVimmClient
-A simple Miyoo Mini Plus client for Vimm's Lair portal
+# vimm-client-miyoo
+A simple Vimm's Lair client for Miyoo Mini Plus
 
 ## Third party binaries:
 - zsh w/ regex https://github.com/zsh-users/zsh
@@ -28,7 +28,7 @@ This project is in its early stages and has bugs. This project is not intended t
 
 ## How to Install Vimm's Lair Client on your Miyoo MMP
 
-Just copy the MiyooVimmClient app folder into `/mnt/SDCARD/App/` on your MMP and then run it from Miyoo Apps menu.
+Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and then run it from Miyoo Apps menu.
 
 ### Screenshots
 
@@ -47,7 +47,7 @@ Just copy the MiyooVimmClient app folder into `/mnt/SDCARD/App/` on your MMP and
 - Curo19 for inspiration taken from his romDownloader
   - [romDownloader Repository](https://github.com/Curo19/romDownloader)
 - [Vimm's Lair website](https://vimm.net)
-- [Libretro GitHub Repository](https://github.com/libretro-thumbnails))
+- [Libretro GitHub Repository](https://github.com/libretro-thumbnails)
 
 ---
 
