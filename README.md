@@ -6,13 +6,13 @@ A simple Vimm's Lair client for Miyoo Mini Plus
 - dialog https://invisible-island.net/dialog/
 
 ## Version
-Vimm's Lair Client for the Miyoo Mini Plus is currently at v1.0
+This application is currently at v1.0
 
 ---
 
 ## Overview
 
-This project is in its early stages and has bugs. This project is not intended to help any kind of piracy, it's just a case od study.
+This project is in its early stages and can have probably bugs. This project is not intended to help any kind of piracy, it's just a case od study.
 
 - Discord Contact: @vitty85
 
@@ -68,5 +68,10 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 
 ### v1.0
    - First release of app
+   - Allow user to search game by Vault ID (from Vimm's Lair database)
+   - Allow user to search game by Platform (there are 16 available and compatible with OnionOS)
+   - Allow user to search game by Name (it's possible to specify the starting chars or a contained substring)
+   - Allow user to uncompress both zip and 7z archives (when you choose to uncompress the app will create a folder with same name game)
+   - Allow user to download both game and box Art and place them into correct MMP folder according to Platform (it follows the Emu mapping of OnionOS)
 
 ---
