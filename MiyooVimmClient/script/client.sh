@@ -48,7 +48,6 @@ main() {
 	while true; do
 		mainmenu 
 	done
-	
 }
 
 mainmenu() {
