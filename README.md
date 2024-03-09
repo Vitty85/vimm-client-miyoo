@@ -2,20 +2,15 @@
 
 A simple Vimm's Lair client for Miyoo Mini Plus
 
-## Third party binaries:
-
-- zsh w/ regex https://github.com/zsh-users/zsh
-- dialog https://invisible-island.net/dialog/
-
 ## Version
 
-This application is currently at v1.1
+This application is currently at version 1.1
 
 ---
 
 ## Overview
 
-This project is in its early stages and can have probably bugs. This project is not intended to help any kind of piracy, it's just a case od study.
+This project is in its early stages and can have probably bugs. This project is not intended to help any kind of piracy, it's just a case of study.
 
 - Discord Contact: @vitty85
 
@@ -55,6 +50,11 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
   - [romDownloader Repository](https://github.com/Curo19/romDownloader)
 - [Vimm's Lair website](https://vimm.net)
 - [Libretro GitHub Repository](https://github.com/libretro-thumbnails)
+
+## Third party binaries:
+
+- zsh w/ regex https://github.com/zsh-users/zsh
+- dialog https://invisible-island.net/dialog/
 
 ---
 
