@@ -32,11 +32,12 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 
 ### Screenshots
 
-   <img src="" width="50%">
-   <img src="" width="50%">
-   <img src="" width="50%">
-   <img src="" width="50%">
-   <img src="" width="50%">
+   ![script_000](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/894c43c8-d601-4d5d-b360-277d337b7116)
+   ![script_001](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/e4f2e6b9-aa50-4d65-9beb-b7a46d2cf790)
+   ![script_002](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/b4d5593c-86fa-4442-9497-fcad98c760d9)
+   ![script_003](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/019d8803-7744-4c25-abaf-ddb8948b5607)
+   ![script_004](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/e7dc8a34-181a-4c58-a88e-2f732b648726)
+   ![script_005](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/29fd8fa7-c1b2-4c33-8971-803bd7f7e7dc)
 
 ---
 
