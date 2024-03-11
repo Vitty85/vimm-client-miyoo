@@ -4,7 +4,7 @@ A simple Vimm's Lair client for Miyoo Mini Plus
 
 ## Version
 
-This application is currently at version 1.1
+This application is currently at version 1.2
 
 ---
 
@@ -30,13 +30,13 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 
 ### Screenshots
 
-   ![script_000](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/e6235bed-7ead-4bc0-8bcf-bf880a763553)
+   ![script_000](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/c47fd62d-9284-44e8-a3f0-58d30be6207a)
    ![script_001](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/e4f2e6b9-aa50-4d65-9beb-b7a46d2cf790)
    ![script_002](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/b4d5593c-86fa-4442-9497-fcad98c760d9)
-   ![script_003](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/019d8803-7744-4c25-abaf-ddb8948b5607)
-   ![script_005](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/29fd8fa7-c1b2-4c33-8971-803bd7f7e7dc)
-   ![script_007](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/d6f585dd-fe0f-4473-aac2-311862b05145)
-   ![Commander_Italic_000](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/10690733-67e2-49cd-b1e4-8d7bcad83b5b)
+   ![script_003](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/b54838d8-b597-40a8-88cc-648f760718ea)
+   ![script_005](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/c14f57df-9fb7-4918-befa-398678f384c0)
+   ![script_007](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/2cabd0a2-70e3-4a86-98c0-aa33d69acc79)
+   ![script_008](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/0b643eaa-274d-42aa-bfff-a35862134278)
    ![Commander_Italic_001](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/05cb8009-7af7-4ab1-bcd1-5345af7e39fc)
    ![script_006](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/c3d32f55-362b-4c29-a1b1-d38579515fb9)
 
@@ -69,6 +69,12 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 ---
 
 ## Changelog
+
+### v1.2
+   - Improved navigation and item selection on menu
+   - Allow user to display more than 20 results on a single search
+   - Addded a show all games option in both search by Name and search by Platform menu
+   - Fixed download size calculation on multi disc / version game
 
 ### v1.1
    - Added about menu with app version
