@@ -4,7 +4,7 @@ A simple Vimm's Lair client for Miyoo Mini Plus
 
 ## Version
 
-This application is currently at version 1.2
+This application is currently at version 1.3
 
 ---
 
@@ -32,7 +32,7 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 
    ![script_000](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/c47fd62d-9284-44e8-a3f0-58d30be6207a)
    ![script_001](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/e4f2e6b9-aa50-4d65-9beb-b7a46d2cf790)
-   ![script_002](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/9a28b3a5-3da9-448b-816c-4d5d96c48ace)
+   ![script_002](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/1bf66143-8a05-41fe-b916-6b9c0bf0e2e6)
    ![script_003](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/b54838d8-b597-40a8-88cc-648f760718ea)
    ![script_005](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/c14f57df-9fb7-4918-befa-398678f384c0)
    ![script_007](https://github.com/Vitty85/vimm-client-miyoo/assets/53129080/2cabd0a2-70e3-4a86-98c0-aa33d69acc79)
@@ -69,6 +69,10 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 ---
 
 ## Changelog
+
+### v1.3
+   - Fixed Atari7800 Platform name in menu
+   - Fixed database for missing Atari5200 and Virtual Boy games (it was always showing no result om search)
 
 ### v1.2
    - Improved navigation and item selection on menu
