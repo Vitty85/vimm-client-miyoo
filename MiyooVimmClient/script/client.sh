@@ -104,7 +104,7 @@ case $CHOICE in
             search_name
             ;;
         4)
-            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.2"
+            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.3"
 			sleep 2
 			mainmenu
             ;;
@@ -367,7 +367,7 @@ search_platform() {
     local options=(
         1 "Atari 2600"
         2 "Atari 5200"
-        3 "Atari 7200"
+        3 "Atari 7800"
         4 "Lynx"
         5 "Nintendo - DS"
         6 "Nintendo - GameBoy"
@@ -397,7 +397,7 @@ search_platform() {
 			console="Atari5200"
 			;;
         3)
-			console="Atari7200"
+			console="Atari7800"
             ;;
         4)
 			console="Lynx"
