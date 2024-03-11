@@ -46,8 +46,9 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 
 - XK for inspiration taken from BetterWifi App
   - [BetterWiFi Repository](https://github.com/XK9274/better-wifi-miyoo)
-- Curo19 for inspiration taken from his romDownloader
+- Curo19 and DanCousins for the inspiration i took from their projects
   - [romDownloader Repository](https://github.com/Curo19/romDownloader)
+  - [vdl Repository](https://github.com/DanCousins/vdl)
 - [Vimm's Lair website](https://vimm.net)
 - [Libretro GitHub Repository](https://github.com/libretro-thumbnails)
 
