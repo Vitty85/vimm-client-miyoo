@@ -95,6 +95,7 @@ case $CHOICE in
 			if [ $? -eq 0 ]; then
             	search_vaultId
 			fi
+			mainmenu
             ;;
         2)
             search_platform
@@ -103,8 +104,9 @@ case $CHOICE in
             search_name
             ;;
         4)
-            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.1"
+            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.2"
 			sleep 2
+			mainmenu
             ;;
         *)
             longdialoginfo  "You quit Miyoo Vimm's Lair Client."
@@ -140,7 +142,7 @@ search_vaultId() {
 	get_imageName
 	if [ "$imageFileName" = "" ]; then
 		longdialoginfo "Cannot find game BoxArt..."
-		mainmenu 1
+		sleep 1
 	fi
 	$($DIALOG --no-lines --yesno "Search result:\n\nFile:$gameName\nSize: $fileSize\nBoxArt: $imageFileName\nConsole: $console\nPath: $filePath\n\nPress Yes to confirm." 0 0 2>&1 >/dev/tty)
 	if [ $? -ne 0 ]; then
@@ -164,33 +166,23 @@ get_mediaId() {
 		sleep 1
 		return
 	fi
-	local MEDIAS = ()
-	unset MEDIAS 0
-	unset MEDIAS 1
-	cat /dev/null > allMedia
-	cat /dev/null > tmpFile
-	rm -rf allMedia
-	rm -rf tmpFile
+	local MEDIA = () ; unset MEDIA ; unset MEDIA
 	echo "$response" | tr ';' '\n' | grep -i "var media = .*" >> allMedia
 	while IFS= read -r line; do
 		id=$(echo "$line" | grep -o '"ID":[0-9]*' | awk -F':' '{print $2}')
 		goodTitle=$(echo "$line" | grep -o '"GoodTitle":"[^"]*"' | awk -F'"' '{print $4}')
-		row="$id;$goodTitle"
-		echo $row >> tmpFile
+		MEDIA+=(${id} ${goodTitle})
 	done < allMedia
-	while IFS=';' read -r col1 col2; do
-		MEDIAS+=(${col1} ${col2})
-	done < tmpFile
 	fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
-	size=${#MEDIAS[@]}
+	size=${#MEDIA[@]}
 	if [ $size -gt 2 ]; then
 		$DIALOG --no-lines --title "Found more discs or versions: $(( size / 2 ))" --cancel-label "Back" --ok-label "Select" \
-		--menu "Choose media to download:" 0 160 0 $MEDIAS 2>$DIALOG_TEMPFILE
+		--menu "Choose media to download:" 0 80 0 $MEDIA 2>$DIALOG_TEMPFILE
 		ret=$?
 		if [ $ret -ne 0 ]; then
 			mediaId="NO_SEL"
+			fileSize=""
 			rm -rf allMedia
-			rm -rf tmpFile
 			return
 		fi
 		if [ $? -eq 0 ]; then
@@ -200,7 +192,6 @@ get_mediaId() {
 				sleep 1
 				mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
 				rm -rf allMedia
-				rm -rf tmpFile
 				return
 			fi
 			getFileSize $(grep $mediaId allMedia | sed -n 's/.*"Zipped":"\([^"]*\)".*/\1/p')
@@ -208,7 +199,6 @@ get_mediaId() {
 				fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
 			fi
 			rm -rf allMedia
-			rm -rf tmpFile
 			return
 		fi
 		longdialoginfo "You didn't choose any media ID, the default one will be selected."
@@ -216,7 +206,6 @@ get_mediaId() {
 	fi
 	mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
 	rm -rf allMedia
-	rm -rf tmpFile
 }
 
 get_filePath() {
@@ -366,7 +355,7 @@ browse_platform() {
 		browse_platform
 	fi
 	$DIALOG --no-lines --title "Search results: $(( size / 2 ))" --cancel-label "Back" --ok-label "Select" \
-		--menu "Choose game to download:" 0 160 0 $GAMES 2>$DIALOG_TEMPFILE
+		--menu "Choose game to download:" 0 80 0 $GAMES 2>$DIALOG_TEMPFILE
 	if [ $? -eq 0 ]; then
 		vaultId=$(<$DIALOG_TEMPFILE)
 		search_vaultId
