@@ -6,6 +6,23 @@ typeset -x PATH="$sysdir/bin:$PATH"
 
 cd $mydir
 
+getFileSize() {
+	local input=$1
+	local grandezze=('1' '1024' '1048576')
+	local unit=('KB' 'MB' 'GB')
+	local grandezza unit_calcolata result
+	for i in $(seq ${#grandezze[@]} -1 1); do
+		grandezza=${grandezze[$i - 1]}
+		if [ "$input" -ge "$grandezza" ]; then
+			unit_calcolata=${unit[$i - 1]}
+			result=$((input * 10 / grandezza))
+			fileSize="$((result / 10)) $unit_calcolata"
+			return
+		fi
+	done
+	fileSize=""
+}
+
 init_static_globals() {
 	typeset -gr DIALOG=$mydir/bin/dialog || { print "ERROR: 'dialog' not found" ; return 1 }
 
@@ -15,6 +32,8 @@ init_static_globals() {
 
 	typeset -gr DIALOG_OK=0
 	typeset -gr DIALOG_CANCEL=1
+	
+	typeset -gr DIALOG_TEMPFILE=$(mktemp 2>/dev/null) || DIALOG_TEMPFILE=/tmp/test$$
 }
 
 shortdialoginfo () {
@@ -64,6 +83,7 @@ CHOICE=$($DIALOG --colors --no-lines \
 				--clear \
                 --backtitle "$BACKTITLE" \
                 --title "$TITLE" \
+				--cancel-label "Exit" \
                 --menu "$MENU" \
                 $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT \
                 "${OPTIONS[@]}" \
@@ -86,7 +106,7 @@ case $CHOICE in
             longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.1"
 			sleep 2
             ;;
-        5)
+        *)
             longdialoginfo  "You quit Miyoo Vimm's Lair Client."
             sleep 1
             exit 0
@@ -97,43 +117,43 @@ esac
 search_vaultId() {
 	if [ "$vaultId" = "" ]; then
 		longdialoginfo "Please specify a valid Vault ID..."
-		cleanup
 		sleep 1
-		return
+		mainmenu
 	fi
 	get_mediaId
 	if [ "$mediaId" = "" ]; then
 		longdialoginfo "Cannot find mediaId..."
-		cleanup
 		sleep 1
-		return
+		mainmenu
+	fi
+	if [ "$mediaId" = "NO_SEL" ]; then
+		mediaId=""
+		mainmenu
 	fi
 	get_filePath
 	get_gameName
 	if [ "$gameName" = "" ]; then
 		longdialoginfo "Cannot find game name..."
-		cleanup
 		sleep 1
-		return
+		mainmenu
 	fi
 	get_imageName
 	if [ "$imageFileName" = "" ]; then
 		longdialoginfo "Cannot find game BoxArt..."
-		sleep 1
+		mainmenu 1
 	fi
 	$($DIALOG --no-lines --yesno "Search result:\n\nFile:$gameName\nSize: $fileSize\nBoxArt: $imageFileName\nConsole: $console\nPath: $filePath\n\nPress Yes to confirm." 0 0 2>&1 >/dev/tty)
 	if [ $? -ne 0 ]; then
 		longdialoginfo "Download aborted..."
-		cleanup
 		sleep 1
-		return
+		mainmenu
 	fi
 	download_game
 	if [ "$res" = "" ]; then
 		longdialoginfo "Game has been downloaded in: $filePath/$gameName"
 		sleep 3
 	fi
-	cleanup
+	mainmenu
 }
 
 get_mediaId() {
@@ -141,36 +161,62 @@ get_mediaId() {
 	response=$(curl -s -k $url)
 	if [ $? -ne 0 ]; then
 		longdialoginfo "Error on HTTP connection..."
-		cleanup
 		sleep 1
 		return
 	fi
-	fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
+	local MEDIAS = ()
+	unset MEDIAS 0
+	unset MEDIAS 1
+	cat /dev/null > allMedia
+	cat /dev/null > tmpFile
+	rm -rf allMedia
+	rm -rf tmpFile
 	echo "$response" | tr ';' '\n' | grep -i "var media = .*" >> allMedia
 	while IFS= read -r line; do
 		id=$(echo "$line" | grep -o '"ID":[0-9]*' | awk -F':' '{print $2}')
 		goodTitle=$(echo "$line" | grep -o '"GoodTitle":"[^"]*"' | awk -F'"' '{print $4}')
-		row="$id) $goodTitle                                                "
+		row="$id;$goodTitle"
 		echo $row >> tmpFile
 	done < allMedia
-	list=$(cat tmpFile)
-	rm -rf allMedia tmpFile
-	numLines=$(echo "$list" | wc -l)
-	if [ $numLines -gt 1 ]; then
-		mediaId=$($DIALOG --no-lines --inputbox "Found more discs or versions:\n\n$list\n\nEnter the media ID and press OK" 0 0 2>&1 >/dev/tty)
+	while IFS=';' read -r col1 col2; do
+		MEDIAS+=(${col1} ${col2})
+	done < tmpFile
+	fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
+	size=${#MEDIAS[@]}
+	if [ $size -gt 2 ]; then
+		$DIALOG --no-lines --title "Found more discs or versions: $(( size / 2 ))" --cancel-label "Back" --ok-label "Select" \
+		--menu "Choose media to download:" 0 160 0 $MEDIAS 2>$DIALOG_TEMPFILE
+		ret=$?
+		if [ $ret -ne 0 ]; then
+			mediaId="NO_SEL"
+			rm -rf allMedia
+			rm -rf tmpFile
+			return
+		fi
 		if [ $? -eq 0 ]; then
+			mediaId=$(<$DIALOG_TEMPFILE)
 			if [ "$mediaId" = "" ]; then
 				longdialoginfo "You didn't choose any media ID, the default one will be selected."
 				sleep 1
 				mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
+				rm -rf allMedia
+				rm -rf tmpFile
 				return
 			fi
+			getFileSize $(grep $mediaId allMedia | sed -n 's/.*"Zipped":"\([^"]*\)".*/\1/p')
+			if [ "$fileSize" = "" ]; then
+				fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
+			fi
+			rm -rf allMedia
+			rm -rf tmpFile
 			return
 		fi
 		longdialoginfo "You didn't choose any media ID, the default one will be selected."
 		sleep 1
 	fi
 	mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
+	rm -rf allMedia
+	rm -rf tmpFile
 }
 
 get_filePath() {
@@ -249,54 +295,80 @@ download_game() {
 
 browse_platform() {
     local options=(
-        1 "Search by first chars"
-        2 "Search by any substring"
-        3 "Return"
+		1 "Show all games"
+        2 "Search by first chars"
+        3 "Search by any substring"
+        4 "Return"
     )
 
     local cmd=(
-        $DIALOG --no-lines --title "Search by Platform" --menu "Choose an option" $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT 
+        $DIALOG --no-lines --title "Search by Platform" --cancel-label "Back" --menu "Choose an option" $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT 
     )
     local choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 	
+	local GAMES=()
+
 	case $choice in
 		1)
+			while IFS=';' read -r col1 col2 col3 col4; do
+				if [[ "$col2" == "$console" ]]; then
+					GAMES+=(${col3} $col1)
+				fi
+			done < "db/database.csv"
+			;;
+		2)
 			letter=$($DIALOG --no-lines --inputbox "Enter the first letters or numbers and press OK" 0 0 2>&1 >/dev/tty)
-			if [ $? -eq 0 ]; then
+			ret=$?
+			if [ $ret -ne 0 ]; then
+				browse_platform
+			fi
+			if [ $ret -eq 0 ]; then
 				if [ "$letter" = "" ]; then
 					longdialoginfo "Please enter at least a valid char..."
 					sleep 1
 					browse_platform
 				fi
-            	list=$(awk -v cn="$console" -v le="^$letter" -F';' 'NR > 1 && $2 == cn && $1 ~ le {print $3") "substr($1, 1, 20)"                                      "}' db/database.csv)
+            	while IFS=';' read -r col1 col2 col3 col4; do
+					if [[ "$col2" == "$console" && "$col1" == "$letter"* ]]; then
+						GAMES+=(${col3} $col1)
+					fi
+				done < "db/database.csv"
 			fi
 			;;
-		2)
+		3)
 			subs=$($DIALOG --no-lines --inputbox "Enter the substring and press OK" 0 0 2>&1 >/dev/tty)
-			if [ $? -eq 0 ]; then
+			ret=$?
+			if [ $ret -ne 0 ]; then
+				browse_platform
+			fi
+			if [ $ret -eq 0 ]; then
 				if [ "$subs" = "" ]; then
 					longdialoginfo "Please enter a valid substring..."
 					sleep 1
 					browse_platform
 				fi
-            	list=$(awk -v cn="$console" -F';' 'NR > 1 && $2 == cn {print $3") "substr($1, 1, 20)"                                              "}' db/database.csv | grep $subs)
+            	while IFS=';' read -r col1 col2 col3 col4; do
+					if [[ "$col2" == "$console" && "$col1" == *"$subs"* ]]; then
+						GAMES+=(${col3} $col1)
+					fi
+				done < "db/database.csv"
 			fi
 			;;	
-		3)
+		*)
 			search_platform
 			;;
 	esac
-	if [ "$list" = "" ]; then
-		longdialoginfo "No match found..."
+	
+	size=${#GAMES[@]}
+	if [ $size -eq 0 ]; then
+		longdialoginfo "No result found..."
 		sleep 1
 		browse_platform
 	fi
-	numLines=$(echo "$list" | wc -l)
-	if [ $numLines -gt 20 ]; then
-		list=$(echo "$list" | head -n 20)
-	fi
-	vaultId=$($DIALOG --no-lines --inputbox "Results (max 20):\n\n$list\n\nEnter the Vault Id and press OK" 0 0 2>&1 >/dev/tty)
+	$DIALOG --no-lines --title "Search results: $(( size / 2 ))" --cancel-label "Back" --ok-label "Select" \
+		--menu "Choose game to download:" 0 160 0 $GAMES 2>$DIALOG_TEMPFILE
 	if [ $? -eq 0 ]; then
+		vaultId=$(<$DIALOG_TEMPFILE)
 		search_vaultId
 	fi
 	browse_platform
@@ -324,131 +396,166 @@ search_platform() {
     )
 
     local cmd=(
-        $DIALOG --no-lines --title "Search by Platform" --menu "Select Platform Name" $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT 
-    )
-    local choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
-
-	case $choice in
-		1)
-			console="Atari2600"
-			browse_platform
-			;;
-		2)
-			console="Atari5200"
-			browse_platform
-			;;
-        3)
-			console="Atari7200"
-			browse_platform
-            ;;
-        4)
-			console="Lynx"
-			browse_platform
-            ;;
-        5)
-			console="DS"
-			browse_platform
-            ;;
-        6)
-			console="GB"
-			browse_platform
-            ;;
-        7)
-			console="GBA"
-			browse_platform
-            ;;
-        8)
-			console="GBC"
-			browse_platform
-            ;;
-        9)
-			console="NES"
-			browse_platform
-            ;;
-        10)
-			console="SNES"
-			browse_platform
-            ;;
-        11)
-			console="VB"
-			browse_platform
-            ;;
-        12)
-			console="32X"
-			browse_platform
-            ;;
-        13)
-			console="GG"
-			browse_platform
-            ;;
-        14)
-			console="SMS"
-			browse_platform
-            ;;
-        15)
-			console="Genesis"
-			browse_platform
-            ;;
-        16)
-			console="PS1"
-			browse_platform
-            ;;
-		17)
-			mainmenu
-			;;
-	esac
-}
-
-search_name(){
-	local options=(
-        1 "Search by first chars"
-        2 "Search by any substring"
-        3 "Return"
-    )
-
-    local cmd=(
-        $DIALOG --no-lines --title "Search by Name" --menu "Choose an option" $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT 
+        $DIALOG --no-lines --title "Search by Platform" --cancel-label "Back" --menu "Select Platform Name" $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT 
     )
     local choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 	
 	case $choice in
 		1)
+			console="Atari2600"
+			;;
+		2)
+			console="Atari5200"
+			;;
+        3)
+			console="Atari7200"
+            ;;
+        4)
+			console="Lynx"
+            ;;
+        5)
+			console="DS"
+            ;;
+        6)
+			console="GB"
+            ;;
+        7)
+			console="GBA"
+            ;;
+        8)
+			console="GBC"
+            ;;
+        9)
+			console="NES"
+            ;;
+        10)
+			console="SNES"
+            ;;
+        11)
+			console="VB"
+            ;;
+        12)
+			console="32X"
+            ;;
+        13)
+			console="GG"
+            ;;
+        14)
+			console="SMS"
+            ;;
+        15)
+			console="Genesis"
+            ;;
+        16)
+			console="PS1"
+            ;;
+		*)
+			console=""
+			mainmenu
+			;;
+	esac
+	browse_platform
+}
+
+search_name(){
+	local options=(
+		1 "Show all games"
+        2 "Search by first chars"
+        3 "Search by any substring"
+        4 "Return"
+    )
+
+    local cmd=(
+        $DIALOG --no-lines --title "Search by Name" --cancel-label "Back" --menu "Choose an option" $MAXHEIGHT $MAXWIDTH $CHOICE_HEIGHT 
+    )
+    local choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
+	
+	local GAMES=()
+		
+	case $choice in
+		1)
+			while IFS=';' read -r col1 col2 col3 col4; do
+				len=$(expr length "$col1 ($col2)")
+				if [ "$len" -gt 40 ]; then
+					con_len=$(expr length "$ ($col2)")
+					max_len=$((40 - con_len))
+					col1_cut=$(echo "$col1" | cut -c 1-$max_len)
+				else
+					col1_cut="$col1"
+				fi
+				GAMES+=(${col3} "$col1_cut ($col2)")
+			done < "db/database.csv"
+			;;
+		2)
 			letter=$($DIALOG --no-lines --inputbox "Enter the first letters or numbers and press OK" 0 0 2>&1 >/dev/tty)
-			if [ $? -eq 0 ]; then
+			ret=$?
+			if [ $ret -ne 0 ]; then
+				search_name
+			fi
+			if [ $ret -eq 0 ]; then
 				if [ "$letter" = "" ]; then
 					longdialoginfo "Please enter at least a valid char..."
 					sleep 1
 					search_name
 				fi
-            	list=$(awk -v le="^$letter" -F';' 'NR > 1 && $1 ~ le {print $3") "substr($1, 1, 20)" ("$2")                                     "}' db/database.csv)
+            	while IFS=';' read -r col1 col2 col3 col4; do
+					if [[ "$col1" == "$letter"* ]]; then
+						len=$(expr length "$col1 ($col2)")
+						if [ "$len" -gt 40 ]; then
+							con_len=$(expr length "$ ($col2)")
+							max_len=$((40 - con_len))
+							col1_cut=$(echo "$col1" | cut -c 1-$max_len)
+						else
+							col1_cut="$col1"
+						fi
+						GAMES+=(${col3} "$col1_cut ($col2)")
+					fi
+				done < "db/database.csv"
 			fi
 			;;
-		2)
+		3)
 			subs=$($DIALOG --no-lines --inputbox "Enter the substring and press OK" 0 0 2>&1 >/dev/tty)
-			if [ $? -eq 0 ]; then
+			ret=$?
+			if [ $ret -ne 0 ]; then
+				search_name
+			fi
+			if [ $ret -eq 0 ]; then
 				if [ "$subs" = "" ]; then
 					longdialoginfo "Please enter a valid substring..."
 					sleep 1
 					search_name
 				fi
-            	list=$(awk -F';' 'NR > 1 {print $3") "substr($1, 1, 20)" ("$2")                                              "}' db/database.csv | grep $subs)
+            	while IFS=';' read -r col1 col2 col3 col4; do
+					if [[ "$col1" == *"$subs"* ]]; then
+						len=$(expr length "$col1 ($col2)")
+						if [ "$len" -gt 40 ]; then
+							con_len=$(expr length "$ ($col2)")
+							max_len=$((40 - con_len))
+							col1_cut=$(echo "$col1" | cut -c 1-$max_len)
+
+						else
+							col1_cut="$col1"
+						fi
+						GAMES+=(${col3} "$col1_cut ($col2)")
+					fi
+				done < "db/database.csv"
 			fi
 			;;	
-		3)
+		*)
 			mainmenu
 			;;
 	esac
-	if [ "$list" = "" ]; then
-		longdialoginfo "No match found..."
+	
+	size=${#GAMES[@]}
+	if [ $size -eq 0 ]; then
+		longdialoginfo "No result found..."
 		sleep 1
 		search_name
 	fi
-	numLines=$(echo "$list" | wc -l)
-	if [ $numLines -gt 20 ]; then
-		list=$(echo "$list" | head -n 20)
-	fi
-	vaultId=$($DIALOG --no-lines --inputbox "Results (max 20):\n\n$list\n\nEnter the Vault Id and press OK" 0 0 2>&1 >/dev/tty)
+	$DIALOG --no-lines --title "Search results: $(( size / 2 ))" --cancel-label "Back" --ok-label "Select" \
+		--menu "Choose game to download:" 0 160 0 $GAMES 2>$DIALOG_TEMPFILE
 	if [ $? -eq 0 ]; then
+		vaultId=$(<$DIALOG_TEMPFILE)
 		search_vaultId
 	fi
 	search_name
