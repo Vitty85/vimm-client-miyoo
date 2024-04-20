@@ -4,7 +4,7 @@ A simple Vimm's Lair client for Miyoo Mini Plus
 
 ## Version
 
-This application is currently at version 1.3
+This application is currently at version 1.4
 
 ---
 
@@ -70,6 +70,10 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 ---
 
 ## Changelog
+
+### v1.4
+   - Updated database
+   - Added Nintendo64, Sega MegaCD and Sega Saturn Platforms in search menu
 
 ### v1.3
    - Fixed Atari7800 Platform name in menu

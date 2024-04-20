@@ -104,7 +104,7 @@ case $CHOICE in
             search_name
             ;;
         4)
-            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.3"
+            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.4"
 			sleep 2
 			mainmenu
             ;;
@@ -230,6 +230,9 @@ get_filePath() {
 		"Lynx")          gameFolder="LYNX" platform="Atari_-_Lynx" ;;
 		"GG")            gameFolder="GG" platform="Sega_-_Game_Gear" ;;
 		"VB")            gameFolder="VB" platform="Nintendo_-_Virtual_Boy" ;;
+		"Saturn")        gameFolder="SATURN" platform="Sega_-_Saturn" ;;
+		"SegaCD")        gameFolder="SEGACD" platform="Sega_-_Mega-CD_-_Sega_CD" ;;
+		"N64")           gameFolder="N64" platform="Nintendo_-_Nintendo_64" ;;
 		*)               gameFolder="" ;;
 	esac
 	filePath=/mnt/SDCARD/Roms/$gameFolder
@@ -369,19 +372,22 @@ search_platform() {
         2 "Atari 5200"
         3 "Atari 7800"
         4 "Lynx"
-        5 "Nintendo - DS"
-        6 "Nintendo - GameBoy"
-        7 "Nintendo - GameBoy Advance"
-        8 "Nintendo - GameBoy Color"
-        9 "Nintendo - NES"
-        10 "Nintendo - SNES"
-        11 "Nintendo - Virtual Boy"
-        12 "Sega - 32X"
-        13 "Sega - Game Gear"
-        14 "Sega - Master System"
-        15 "Sega - Mega Drive"
-        16 "Sony - Playstation"
-        17 "Return"
+        5 "Nintendo - 64"
+        6 "Nintendo - DS"
+        7 "Nintendo - GameBoy"
+        8 "Nintendo - GameBoy Advance"
+        9 "Nintendo - GameBoy Color"
+        10 "Nintendo - NES"
+        11 "Nintendo - SNES"
+        12 "Nintendo - Virtual Boy"
+        13 "Sega - 32X"
+        14 "Sega - Game Gear"
+        15 "Sega - Master System"
+        16 "Sega - Mega CD"
+        17 "Sega - Mega Drive"
+        18 "Sega - Saturn"
+        19 "Sony - Playstation"
+        20 "Return"
     )
 
     local cmd=(
@@ -403,39 +409,48 @@ search_platform() {
 			console="Lynx"
             ;;
         5)
-			console="DS"
+			console="N64"
             ;;
         6)
-			console="GB"
+			console="DS"
             ;;
         7)
-			console="GBA"
+			console="GB"
             ;;
         8)
-			console="GBC"
+			console="GBA"
             ;;
         9)
-			console="NES"
+			console="GBC"
             ;;
         10)
-			console="SNES"
+			console="NES"
             ;;
         11)
-			console="VB"
+			console="SNES"
             ;;
         12)
-			console="32X"
+			console="VB"
             ;;
         13)
-			console="GG"
+			console="32X"
             ;;
         14)
-			console="SMS"
+			console="GG"
             ;;
         15)
-			console="Genesis"
+			console="SMS"
             ;;
         16)
+			console="SegaCD"
+            ;;			
+        17)
+			console="Genesis"
+            ;;
+        18)
+			console="Saturn"
+            ;;
+        19)
 			console="PS1"
             ;;
 		*)
