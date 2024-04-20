@@ -77,7 +77,7 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 
 ### v1.3
    - Fixed Atari7800 Platform name in menu
-   - Fixed database for missing Atari5200 and Virtual Boy games (it was always showing no result om search)
+   - Fixed database for missing Atari5200 and Virtual Boy games (it was always showing no result on search)
 
 ### v1.2
    - Improved navigation and item selection on menu
