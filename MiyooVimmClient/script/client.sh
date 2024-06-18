@@ -108,7 +108,7 @@ case $CHOICE in
             search_name
             ;;
         4)
-            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.4"
+            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.5"
 			sleep 2
 			mainmenu
             ;;
