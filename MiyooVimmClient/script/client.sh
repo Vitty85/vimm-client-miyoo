@@ -6,6 +6,10 @@ typeset -x PATH="$sysdir/bin:$PATH"
 
 cd $mydir
 
+decode_base64() {
+    echo "$1" | base64 -d
+}
+
 getFileSize() {
 	local input=$1
 	local grandezze=('1' '1024' '1048576')
@@ -167,13 +171,14 @@ get_mediaId() {
 		return
 	fi
 	local MEDIA = () ; unset MEDIA ; unset MEDIA
-	echo "$response" | tr ';' '\n' | grep -i "var media = .*" >> allMedia
-	while IFS= read -r line; do
-		id=$(echo "$line" | grep -o '"ID":[0-9]*' | awk -F':' '{print $2}')
-		goodTitle=$(echo "$line" | grep -o '"GoodTitle":"[^"]*"' | awk -F'"' '{print $4}')
+	echo "$response" | tr ';' '\n' | grep -i "var allMedia = .*" | sed 's/.*\[/\[/' >> allMedia
+	ids_and_titles=$(jq -r '.[] | "\(.ID) \(.GoodTitle)"' allMedia)
+	echo "$ids_and_titles" | while IFS=" " read -r id encoded_title; do
+		goodTitle=$(decode_base64 "$encoded_title")
 		MEDIA+=(${id} ${goodTitle})
-	done < allMedia
-	fileSize=$(echo "$response" | sed -n 's/.*download_size">\([^"]*\).*/\1/p' | sed -n 's/<.*//p')
+	done
+	mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
+	getFileSize $(grep $mediaId allMedia | sed -n 's/.*"Zipped":"\([^"]*\)".*/\1/p')
 	size=${#MEDIA[@]}
 	if [ $size -gt 2 ]; then
 		$DIALOG --no-lines --title "Found more discs or versions: $(( size / 2 ))" --cancel-label "Back" --ok-label "Select" \
@@ -204,7 +209,6 @@ get_mediaId() {
 		longdialoginfo "You didn't choose any media ID, the default one will be selected."
 		sleep 1
 	fi
-	mediaId=$(echo "$response" | sed -n 's/.*mediaId" value="\([^"]*\).*/\1/p')
 	rm -rf allMedia
 }
 
