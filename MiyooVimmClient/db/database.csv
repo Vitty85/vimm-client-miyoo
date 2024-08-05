@@ -92,6 +92,7 @@ Labyrinth;Atari2600;92424
 Lilly-Adventure;Atari2600;90956
 LockNChase;Atari2600;92425
 Marineflieger;Atari2600;92426
+Math-Gran-Prix;Atari2600;93781
 Missile-Command;Atari2600;93110
 Missile-Control;Atari2600;90992
 Missile-War;Atari2600;90993
@@ -103,7 +104,6 @@ Mr.-Postman;Atari2600;91013
 Mr.-Run-and-Jump;Atari2600;92427
 Mr.-T;Atari2600;92428
 Ms.-Pac-Man;Atari2600;91016
-My-Golf;Atari2600;91018
 Night-Driver;Atari2600;91022
 Nightmare;Atari2600;91023
 Nuts;Atari2600;91025
@@ -144,6 +144,7 @@ Space-War;Atari2600;91180
 Spider-Man;Atari2600;93703
 Spikes-Peak;Atari2600;92562
 Star-Voyager;Atari2600;92530
+Star-Wars-The-Empire-Strikes-Back;Atari2600;93803
 Stargate;Atari2600;92478
 Steeplechase;Atari2600;91212
 Street-Racer-Speedway-II;Atari2600;91218
@@ -153,7 +154,6 @@ Super-Breakout;Atari2600;92481
 Surfers-Paradise-But-Danger-Below!;Atari2600;91238
 Surround;Atari2600;91239
 SwordQuest-EarthWorld--Atari-Anthology-;Atari2600;91248
-Tank-AI;Atari2600;91252
 Tennis-International-Edition;Atari2600;92432
 Time-Warp;Atari2600;91268
 Tomcat-The-F-14-Fighter-Simulator--Activision-Anthology---Remix-Edition---PAL-;Atari2600;91274
@@ -1803,7 +1803,7 @@ Ultimate-Mortal-Kombat-3;Genesis;45543
 Ultimate-Soccer;Genesis;45544
 Urban-Strike;Genesis;2457
 Vectorman;Genesis;2461
-Vectorman--Sega-Smash-Pack-2-;Genesis;45562
+Vectorman--Sega-Smash-Pack-;Genesis;45562
 Venom-.-Spider-Man-Separation-Anxiety;Genesis;2353
 Virtua-Fighter-2;Genesis;2464
 Virtua-Racing;Genesis;45583
@@ -3970,6 +3970,7 @@ Oddworld-Abes-Exoddus;PS1;50834
 Oddworld-Abes-Oddysee;PS1;50835
 Oddworld-Abes-Oddysee;PS1;53002
 Off-World-Interceptor-Extreme;PS1;53705
+Official-PlayStation-Magazine-Best-Games-Ever-2000;PS1;51140
 Olympic-Games;PS1;54559
 Olympic-Soccer;PS1;50838
 Omega-Assault;PS1;54813
@@ -3977,6 +3978,7 @@ Omega-Boost;PS1;54930
 One;PS1;52260
 One-Piece-Mansion;PS1;51020
 Onside-Complete-Soccer;PS1;52690
+OPSM-Best-PS-One-Games-Ever;PS1;57675
 Oro-e-Gloria-La-Strada-per-El-Dorado;PS1;55507
 OverBlood;PS1;50837
 OverBlood-2;PS1;54272
@@ -6311,6 +6313,7 @@ Crazy-Frog-Racer;GBA;48437
 Crazy-Taxi-Catch-a-Ride;GBA;48438
 Creatures;GBA;48440
 Creatures;GBA;48441
+Cross-Town-Heroes;GBA;49285
 Crouching-Tiger-Hidden-Dragon;GBA;48447
 Cruisn-Velocity;GBA;5190
 CT-Special-Forces;GBA;48450
@@ -6645,7 +6648,6 @@ Mary-Kate-and-Ashley-Sweet-16---Licensed-to-Drive;GBA;5501
 Mat-Hoffmans-Pro-BMX;GBA;49283
 Mat-Hoffmans-Pro-BMX;GBA;5503
 Mat-Hoffmans-Pro-BMX-2;GBA;5504
-Matchbox-Cross-Town-Heroes;GBA;49285
 Max-Payne-Advance;GBA;49288
 Maya-the-Bee-Sweet-Gold;GBA;49289
 Maya-the-Bee-The-Great-Adventure;GBA;49290
@@ -7238,8 +7240,8 @@ AMF-Bowling-Pinbusters!;DS;29599
 Amici;DS;29600
 An-M.-Night-Shyamalan-Film-The-Last-Airbender;DS;29601
 Ancient-Spirits-Columbus-Legacy;DS;29606
-Angel-Cat-Sugar;DS;29607
 Angel-Cat-Sugar;DS;29608
+Angel-Cat-Sugar;DS;29607
 Animal-Crossing-Wild-World;DS;29611
 Animal-Crossing-Wild-World--Wii-U-Virtual-Console-;DS;91896
 Animal-Genius;DS;29615
@@ -7650,8 +7652,8 @@ Dora-the-Explorer-Dora-Saves-the-Mermaids;DS;30477
 Dora-the-Explorer-Dora-Saves-the-Mermaids;DS;30478
 Dora-the-Explorer-Dora-Saves-the-Mermaids;DS;30479
 Dora-the-Explorer-Dora-Saves-the-Snow-Princess;DS;30480
-Dora-the-Explorer-Dora-Saves-the-Snow-Princess;DS;30481
 Dora-the-Explorer-Dora-Saves-the-Snow-Princess;DS;30482
+Dora-the-Explorer-Dora-Saves-the-Snow-Princess;DS;30481
 Doras-Big-Birthday-Adventure;DS;30483
 Doras-Big-Birthday-Adventure;DS;30484
 Doras-Cooking-Club;DS;30486
@@ -9097,8 +9099,8 @@ Tinker-Bell-and-the-Great-Fairy-Rescue;DS;34338
 Tinker-Bell-and-the-Great-Fairy-Rescue;DS;34339
 Tinker-Bell-and-the-Great-Fairy-Rescue;DS;34340
 Tinker-Bell-and-the-Lost-Treasure;DS;34341
-Tinker-Bell-and-the-Lost-Treasure;DS;34342
 Tinker-Bell-and-the-Lost-Treasure;DS;34343
+Tinker-Bell-and-the-Lost-Treasure;DS;34342
 Titanic-Mystery;DS;34347
 Titanic-Mystery;DS;34348
 TMNT-Teenage-Mutant-Ninja-Turtles;DS;34350
@@ -9322,6 +9324,8 @@ Zubo;DS;34966
 [BIOS]-Nintendo-DS-Firmware--2005-02-28-;DS;83086
 [BIOS]-Nintendo-DS-Firmware--2005-06-06-;DS;83087
 [BIOS]-Nintendo-DS-Firmware--2005-12-07-;DS;83083
+[BIOS]-Nintendo-DS-Firmware--2006-02-20---IS-NITRO-EMULATOR-;DS;93760
+[BIOS]-Nintendo-DS-Firmware--2006-02-20---IS-NITRO-EMULATOR---USG-Controller-;DS;93761
 [BIOS]-Nintendo-DS-Lite-Firmware--2006-02-05-;DS;83089
 [BIOS]-Nintendo-DS-Lite-Firmware--2006-03-08-;DS;83090
 007-Quantum-of-Solace;DS;29424

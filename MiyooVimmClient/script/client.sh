@@ -108,7 +108,7 @@ case $CHOICE in
             search_name
             ;;
         4)
-            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.5"
+            longdialoginfo "Miyoo Vimm's Lair Client - Version: 1.6"
 			sleep 2
 			mainmenu
             ;;
@@ -243,9 +243,14 @@ get_filePath() {
 }
 
 get_gameName() {
-	url=https://download3.vimm.net/download/?mediaId=$mediaId
+	url=https://download2.vimm.net/download/?mediaId=$mediaId
 	headers=$(curl -sI -X GET -H "Referer: https://vimm.net/vault/$vaultId" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" --insecure $url)
 	gameName=$(echo "$headers" | grep -o -E "filename=.*" | cut -d'=' -f2 | cut -d'"' -f2)
+	if [ "$gameName" = "" ]; then
+		url=https://download3.vimm.net/download/?mediaId=$mediaId
+		headers=$(curl -sI -X GET -H "Referer: https://vimm.net/vault/$vaultId" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" --insecure $url)
+		gameName=$(echo "$headers" | grep -o -E "filename=.*" | cut -d'=' -f2 | cut -d'"' -f2)
+	fi
 	sleep 1
 }
 

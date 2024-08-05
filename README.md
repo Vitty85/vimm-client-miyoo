@@ -4,7 +4,7 @@ A simple Vimm's Lair client for Miyoo Mini Plus
 
 ## Version
 
-This application is currently at version 1.5
+This application is currently at version 1.6
 
 ---
 
@@ -19,8 +19,8 @@ This project is in its early stages and can have probably bugs. This project is 
 ## Requirements
 
 - Packaged for Onion App (Porting to other UIs is welcome)
-- Latest 4.3 of Onion
-- Recent firmware
+- Latest version of Onion (https://github.com/OnionUI/Onion/releases/latest)
+- Recent firmware (You need at least firmware version 20220419****)
 
 ---
 
@@ -70,6 +70,10 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 ---
 
 ## Changelog
+
+### v1.6
+   - Updated database
+   - Fixed download link from Vimm's Lair portal
 
 ### v1.5
    - Updated database
