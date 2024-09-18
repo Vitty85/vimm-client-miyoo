@@ -4,7 +4,7 @@ A simple Vimm's Lair client for Miyoo Mini Plus
 
 ## Version
 
-This application is currently at version 1.6
+This application is currently at version 1.7
 
 ---
 
@@ -70,6 +70,9 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 ---
 
 ## Changelog
+
+### v1.7
+   - Fixed download link from Vimm's Lair portal
 
 ### v1.6
    - Updated database
