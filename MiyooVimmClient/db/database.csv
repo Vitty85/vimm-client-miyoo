@@ -34,6 +34,7 @@ Blueprint;Atari2600;90696
 BMX-Air-Master;Atari2600;90699
 Bobby-Is-Going-Home;Atari2600;90701
 Boing!;Atari2600;90708
+Boom-Bang;Atari2600;94735
 Bowling;Atari2600;90711
 Boxing;Atari2600;90714
 Brain-Games;Atari2600;90717
@@ -51,6 +52,7 @@ Casino;Atari2600;90743
 Centipede;Atari2600;90748
 Challenge-of....-NEXAR-The;Atari2600;90752
 Championship-Soccer;Atari2600;90753
+Chess;Atari2600;93839
 China-Syndrome;Atari2600;90758
 Chopper-Command;Atari2600;90760
 Circus-Atari;Atari2600;90763
@@ -81,6 +83,7 @@ Gangster-Alley;Atari2600;92421
 Ghost-Manor;Atari2600;92559
 Ghostbusters;Atari2600;92422
 Ghostbusters-II;Atari2600;90888
+Gorf;Atari2600;93840
 Great-Escape;Atari2600;90899
 H.E.R.O.;Atari2600;92423
 Haunted-House;Atari2600;93702
@@ -88,6 +91,7 @@ Hell-Driver;Atari2600;90911
 I.Q.-Memory-Teaser;Atari2600;90919
 Indy-500;Atari2600;90923
 Klax;Atari2600;90945
+Laaser-Voley--Pirate-;Atari2600;93841
 Labyrinth;Atari2600;92424
 Lilly-Adventure;Atari2600;90956
 LockNChase;Atari2600;92425
@@ -99,6 +103,7 @@ Missile-War;Atari2600;90993
 Mission-3000-A.D.;Atari2600;90994
 Mission-Survive;Atari2600;90996
 Moon-Patrol;Atari2600;91002
+Motocross;Atari2600;94885
 Mouse-Trap;Atari2600;91010
 Mr.-Postman;Atari2600;91013
 Mr.-Run-and-Jump;Atari2600;92427
@@ -162,165 +167,167 @@ Treasure-Island;Atari2600;91279
 Trick-Shot;Atari2600;93094
 Tunnel-de-LEspace-Le;Atari2600;91282
 Universal-Chaos;Atari2600;92445
+Venture;Atari2600;93842
 Video-Pinball;Atari2600;92615
 Vogel-Flieh;Atari2600;91300
 Walker;Atari2600;91302
 Wall-Break;Atari2600;91304
 Wing-War;Atari2600;91308
+Wizard-of-War;Atari2600;93843
 World-End;Atari2600;91315
 Yars-Revenge;Atari2600;93704
 3-D-Tic-Tac-Toe;Atari2600;90596
 32-in-1-Game-Cartridge;Atari2600;90599
 4-Game-in-One--Bit-Corporation-;Atari2600;90600
-[BIOS]-Atari-5200;Atari5200;91327;2 KB
-5200-Menu;Atari5200;91328;1 KB
-A.E.;Atari5200;91329;11 KB
-Activision-Decathlon-The;Atari5200;91330;12 KB
-Asteroids;Atari5200;91331;5 KB
-Astro-Chase;Atari5200;91332;10 KB
-Astrogrover;Atari5200;91333;13 KB
-Atari-PAM-Diagnostics;Atari5200;91335;7 KB
-Atari-PAM-System-Test;Atari5200;91336;5 KB
-Atari-PAM-Petes-Test;Atari5200;91334;2 KB
-Ballblazer;Atari5200;91337;18 KB
-Barroom-Baseball;Atari5200;91338;17 KB
-Battlezone;Atari5200;91339;10 KB
-Battlezone--Alt-;Atari5200;91340;10 KB
-Beamrider;Atari5200;91341;11 KB
-Behind-Jaggi-Lines!;Atari5200;91342;24 KB
-BerZerk;Atari5200;91343;12 KB
-Black-Belt;Atari5200;91344;11 KB
-Blaster;Atari5200;91345;13 KB
-Blue-Print;Atari5200;91346;11 KB
-Boogie;Atari5200;91347;1 KB
-Bounty-Bob-Strikes-Back!;Atari5200;91348;33 KB
-Buck-Rogers-Planet-of-Zoom;Atari5200;91349;10 KB
-Buck-Rogers-Planet-of-Zoom--Alt-;Atari5200;92433;9 KB
-Carol-Shaws-River-Raid;Atari5200;91350;7 KB
-Castle-Blast;Atari5200;91351;7 KB
-Castle-Crisis;Atari5200;91352;20 KB
-Centipede;Atari5200;91353;9 KB
-Choplifter!;Atari5200;91354;11 KB
-Congo-Bongo;Atari5200;91355;12 KB
-Countermeasure;Atari5200;91356;11 KB
-David-Cranes-Pitfall-II-Lost-Caverns;Atari5200;91357;11 KB
-Defender;Atari5200;91358;9 KB
-Dig-Dug;Atari5200;91359;12 KB
-Dreadnaught-Factor-The;Atari5200;91360;7 KB
-Final-Legacy;Atari5200;91361;13 KB
-Frisky-Tom;Atari5200;91362;9 KB
-Frogger;Atari5200;91363;6 KB
-Frogger-II-Threeedeep!;Atari5200;91364;9 KB
-Galaxian;Atari5200;91365;6 KB
-Galaxian--Alt-;Atari5200;91366;6 KB
-Gorf;Atari5200;91367;8 KB
-Gremlins;Atari5200;91368;15 KB
-Gyruss;Atari5200;91369;12 KB
-Gyruss--Alt-;Atari5200;92434;12 KB
-H.E.R.O.;Atari5200;91370;9 KB
-James-Bond-007;Atari5200;91371;10 KB
-Joust;Atari5200;91372;12 KB
-Jr.-Pac-Man;Atari5200;91373;10 KB
-Jungle-Hunt;Atari5200;91374;12 KB
-K-Razy-Shoot-Out;Atari5200;91375;6 KB
-Kaboom!;Atari5200;91376;4 KB
-Kangaroo;Atari5200;91377;10 KB
-Keystone-Kapers;Atari5200;91378;7 KB
-Koffi-Yellow-Kopter;Atari5200;91379;15 KB
-Last-Starfighter-The;Atari5200;91380;13 KB
-Looney-Tunes-Hotel;Atari5200;91381;9 KB
-Mario-Bros.;Atari5200;91382;12 KB
-Mario-Bros.--Alt-;Atari5200;92435;12 KB
-Meebzork;Atari5200;91383;15 KB
-MegaMania;Atari5200;91384;6 KB
-Meteorites;Atari5200;91385;7 KB
-Microgammon-SB;Atari5200;91386;7 KB
-Millipede;Atari5200;91387;12 KB
-Miner-2049er-Starring-Bounty-Bob;Atari5200;91388;12 KB
-Miniature-Golf;Atari5200;91389;7 KB
-Missile-Command;Atari5200;91390;5 KB
-Montezumas-Revenge-Featuring-Panama-Joe;Atari5200;91391;10 KB
-Moon-Patrol;Atari5200;91392;12 KB
-Mountain-King;Atari5200;91393;7 KB
-Mr.-Do!s-Castle;Atari5200;91394;7 KB
-Ms.-Pac-Man;Atari5200;91395;10 KB
-Pac-Man;Atari5200;91396;8 KB
-Pengo;Atari5200;91397;11 KB
-Pitfall!;Atari5200;91398;6 KB
-Pole-Position;Atari5200;91399;12 KB
-Pole-Position;Atari5200;91400;12 KB
-Popeye;Atari5200;91401;12 KB
-Q-bert;Atari5200;91402;6 KB
-QIX;Atari5200;91403;7 KB
-Quest-for-Quintana-Roo;Atari5200;91404;11 KB
-RealSports-Baseball;Atari5200;91405;17 KB
-RealSports-Basketball;Atari5200;91406;9 KB
-RealSports-Basketball--1982-11-05-;Atari5200;91407;5 KB
-RealSports-Basketball--1983-10-31-;Atari5200;91408;9 KB
-RealSports-Football;Atari5200;91409;11 KB
-RealSports-Soccer;Atari5200;91410;7 KB
-RealSports-Tennis;Atari5200;91411;7 KB
-Rescue-on-Fractalus!;Atari5200;91412;24 KB
-Road-Runner;Atari5200;91413;8 KB
-Robotron-2084;Atari5200;91414;11 KB
-Space-Dungeon;Atari5200;91415;11 KB
-Space-Invaders;Atari5200;91416;6 KB
-Space-Shuttle-A-Journey-Into-Space;Atari5200;91417;12 KB
-Spitfire;Atari5200;91418;11 KB
-Sport-Goofy;Atari5200;91419;9 KB
-Star-Raiders;Atari5200;91420;7 KB
-Star-Raiders--Alternate-;Atari5200;92436;7 KB
-Star-Trek-Strategic-Operations-Simulator;Atari5200;91421;11 KB
-Star-Trek-Strategic-Operations-Simulator--Alt-;Atari5200;92437;10 KB
-Star-Wars-Return-of-the-Jedi---Death-Star-Battle;Atari5200;91422;7 KB
-Star-Wars-The-Arcade-Game;Atari5200;91423;11 KB
-Stargate;Atari5200;91424;11 KB
-Super-Breakout;Atari5200;91425;4 KB
-Super-Cobra;Atari5200;91426;6 KB
-Super-Pac-Man;Atari5200;91427;12 KB
-Super-Pacman--Alt-;Atari5200;91428;12 KB
-Tempest;Atari5200;91429;7 KB
-Tempest--AtariAge-;Atari5200;91430;17 KB
-Track-and-Field;Atari5200;91431;12 KB
-Vanguard;Atari5200;91432;13 KB
-Wizard-of-Wor;Atari5200;91433;12 KB
-Xari-Arena;Atari5200;91434;11 KB
-Xevious;Atari5200;91435;15 KB
-Yellow-Submarine;Atari5200;91436;1 KB
-Zaxxon;Atari5200;91437;9 KB
-Zenji;Atari5200;91438;7 KB
-Zone-Ranger;Atari5200;91439;12 KB
-3-D-Tetris;VB;84280;263 KB
-Bound-High;VB;84288;302 KB
-Galactic-Pinball;VB;84297;397 KB
-Golf;VB;84298;516 KB
-Insmouth-no-Yakata;VB;84304;200 KB
-Jack-Bros.;VB;84305;360 KB
-Jack-Bros.-no-Meiro-de-Hiihoo!;VB;84306;408 KB
-Mario-Clash;VB;84307;279 KB
-Marios-Tennis;VB;84311;298 KB
-Nesters-Funky-Bowling;VB;84312;598 KB
-Niko-chan-Battle;VB;84313;319 KB
-Panic-Bomber;VB;84315;288 KB
-Red-Alarm;VB;84317;226 KB
-Red-Alarm;VB;84316;225 KB
-SD-Gundam-Dimension-War;VB;84319;332 KB
-Space-Invaders-Virtual-Collection;VB;84325;261 KB
-Space-Pinball;VB;84326;263 KB
-Space-Squash;VB;84327;213 KB
-T&E-Virtual-Golf;VB;84330;514 KB
-Teleroboxer;VB;84331;387 KB
-Tobidase!-Panibon;VB;84332;287 KB
-V-Tetris;VB;84334;93 KB
-Vertical-Force;VB;84335;373 KB
-Vertical-Force;VB;84336;372 KB
-Virtual-Bowling;VB;84337;324 KB
-Virtual-Boy-Wario-Land;VB;84338;701 KB
-Virtual-Fishing;VB;84339;257 KB
-Virtual-Lab;VB;84340;41 KB
-Virtual-League-Baseball;VB;84341;451 KB
-Virtual-Pro-Yakyuu-95;VB;84342;600 KB
-Waterworld;VB;84344;699 KB
+[BIOS]-Atari-5200;Atari5200;91327
+5200-Menu;Atari5200;91328
+A.E.;Atari5200;91329
+Activision-Decathlon-The;Atari5200;91330
+Asteroids;Atari5200;91331
+Astro-Chase;Atari5200;91332
+Astrogrover;Atari5200;91333
+Atari-PAM-Diagnostics;Atari5200;91335
+Atari-PAM-System-Test;Atari5200;91336
+Atari-PAM-Petes-Test;Atari5200;91334
+Ballblazer;Atari5200;91337
+Barroom-Baseball;Atari5200;91338
+Battlezone;Atari5200;91339
+Battlezone--Alt-;Atari5200;91340
+Beamrider;Atari5200;91341
+Behind-Jaggi-Lines!;Atari5200;91342
+BerZerk;Atari5200;91343
+Black-Belt;Atari5200;91344
+Blaster;Atari5200;91345
+Blue-Print;Atari5200;91346
+Boogie;Atari5200;91347
+Bounty-Bob-Strikes-Back!;Atari5200;91348
+Buck-Rogers-Planet-of-Zoom;Atari5200;91349
+Buck-Rogers-Planet-of-Zoom--Alt-;Atari5200;92433
+Carol-Shaws-River-Raid;Atari5200;91350
+Castle-Blast;Atari5200;91351
+Castle-Crisis;Atari5200;91352
+Centipede;Atari5200;91353
+Choplifter!;Atari5200;91354
+Congo-Bongo;Atari5200;91355
+Countermeasure;Atari5200;91356
+David-Cranes-Pitfall-II-Lost-Caverns;Atari5200;91357
+Defender;Atari5200;91358
+Dig-Dug;Atari5200;91359
+Dreadnaught-Factor-The;Atari5200;91360
+Final-Legacy;Atari5200;91361
+Frisky-Tom;Atari5200;91362
+Frogger;Atari5200;91363
+Frogger-II-Threeedeep!;Atari5200;91364
+Galaxian;Atari5200;91365
+Galaxian--Alt-;Atari5200;91366
+Gorf;Atari5200;91367
+Gremlins;Atari5200;91368
+Gyruss;Atari5200;91369
+Gyruss--Alt-;Atari5200;92434
+H.E.R.O.;Atari5200;91370
+James-Bond-007;Atari5200;91371
+Joust;Atari5200;91372
+Jr.-Pac-Man;Atari5200;91373
+Jungle-Hunt;Atari5200;91374
+K-Razy-Shoot-Out;Atari5200;91375
+Kaboom!;Atari5200;91376
+Kangaroo;Atari5200;91377
+Keystone-Kapers;Atari5200;91378
+Koffi-Yellow-Kopter;Atari5200;91379
+Last-Starfighter-The;Atari5200;91380
+Looney-Tunes-Hotel;Atari5200;91381
+Mario-Bros.;Atari5200;91382
+Mario-Bros.--Alt-;Atari5200;92435
+Meebzork;Atari5200;91383
+MegaMania;Atari5200;91384
+Meteorites;Atari5200;91385
+Microgammon-SB;Atari5200;91386
+Millipede;Atari5200;91387
+Miner-2049er-Starring-Bounty-Bob;Atari5200;91388
+Miniature-Golf;Atari5200;91389
+Missile-Command;Atari5200;91390
+Montezumas-Revenge-Featuring-Panama-Joe;Atari5200;91391
+Moon-Patrol;Atari5200;91392
+Mountain-King;Atari5200;91393
+Mr.-Do!s-Castle;Atari5200;91394
+Ms.-Pac-Man;Atari5200;91395
+Pac-Man;Atari5200;91396
+Pengo;Atari5200;91397
+Pitfall!;Atari5200;91398
+Pole-Position;Atari5200;91399
+Pole-Position;Atari5200;91400 
+Popeye;Atari5200;91401
+Q-bert;Atari5200;91402
+QIX;Atari5200;91403
+Quest-for-Quintana-Roo;Atari5200;91404
+RealSports-Baseball;Atari5200;91405
+RealSports-Basketball;Atari5200;91406
+RealSports-Basketball--1982-11-05-;Atari5200;91407
+RealSports-Basketball--1983-10-31-;Atari5200;91408
+RealSports-Football;Atari5200;91409
+RealSports-Soccer;Atari5200;91410
+RealSports-Tennis;Atari5200;91411
+Rescue-on-Fractalus!;Atari5200;91412
+Road-Runner;Atari5200;91413
+Robotron-2084;Atari5200;91414
+Space-Dungeon;Atari5200;91415
+Space-Invaders;Atari5200;91416
+Space-Shuttle-A-Journey-Into-Space;Atari5200;91417
+Spitfire;Atari5200;91418
+Sport-Goofy;Atari5200;91419
+Star-Raiders;Atari5200;91420
+Star-Raiders--Alternate-;Atari5200;92436
+Star-Trek-Strategic-Operations-Simulator;Atari5200;91421
+Star-Trek-Strategic-Operations-Simulator--Alt-;Atari5200;92437
+Star-Wars-Return-of-the-Jedi---Death-Star-Battle;Atari5200;91422
+Star-Wars-The-Arcade-Game;Atari5200;91423
+Stargate;Atari5200;91424
+Super-Breakout;Atari5200;91425
+Super-Cobra;Atari5200;91426
+Super-Pac-Man;Atari5200;91427
+Super-Pacman--Alt-;Atari5200;91428
+Tempest;Atari5200;91429
+Tempest--AtariAge-;Atari5200;91430
+Track-and-Field;Atari5200;91431
+Vanguard;Atari5200;91432
+Wizard-of-Wor;Atari5200;91433
+Xari-Arena;Atari5200;91434
+Xevious;Atari5200;91435
+Yellow-Submarine;Atari5200;91436
+Zaxxon;Atari5200;91437
+Zenji;Atari5200;91438
+Zone-Ranger;Atari5200;91439
+3-D-Tetris;VB;84280
+Bound-High;VB;84288
+Galactic-Pinball;VB;84297
+Golf;VB;84298
+Insmouth-no-Yakata;VB;84304
+Jack-Bros.;VB;84305
+Jack-Bros.-no-Meiro-de-Hiihoo!;VB;84306
+Mario-Clash;VB;84307
+Marios-Tennis;VB;84311
+Nesters-Funky-Bowling;VB;84312
+Niko-chan-Battle;VB;84313
+Panic-Bomber;VB;84315
+Red-Alarm;VB;84317
+Red-Alarm;VB;84316
+SD-Gundam-Dimension-War;VB;84319
+Space-Invaders-Virtual-Collection;VB;84325
+Space-Pinball;VB;84326
+Space-Squash;VB;84327
+T&E-Virtual-Golf;VB;84330
+Teleroboxer;VB;84331
+Tobidase!-Panibon;VB;84332
+V-Tetris;VB;84334
+Vertical-Force;VB;84335
+Vertical-Force;VB;84336
+Virtual-Bowling;VB;84337
+Virtual-Boy-Wario-Land;VB;84338
+Virtual-Fishing;VB;84339
+Virtual-Lab;VB;84340
+Virtual-League-Baseball;VB;84341
+Virtual-Pro-Yakyuu-95;VB;84342
+Waterworld;VB;84344
 Action-in-New-York;NES;75294
 Addams-Family-The;NES;75297
 Addams-Family-The-Pugsleys-Scavenger-Hunt;NES;75298
@@ -341,6 +348,9 @@ Adventures-of-Valecule-The;NES;27
 Air-Fortress;NES;75331
 Airwolf;NES;44
 Airwolf--Acclaim-;NES;75335
+Akumajou-Densetsu--Castlevania-Anniversary-Collection-;NES;93969
+Akumajou-Dracula--Castlevania-Anniversary-Collection-;NES;93970
+Akumajou-Special-Boku-Dracula-kun--Castlevania-Anniversary-Collection-;NES;93958
 Akumajyou-Densetsu;NES;45
 Aladdin;NES;75345
 Alfred-Chicken;NES;75350
@@ -359,6 +369,8 @@ Astyanax;NES;75417
 Athletic-World;NES;75420
 Attack-Animal-Academy;NES;67
 Attack-of-the-Killer-Tomatoes;NES;75424
+Bad-Dudes--Evercade-;NES;94914
+Bad-Dudes--Evercade-;NES;94961
 Bad-Dudes-vs.-Dragon-Ninja;NES;75446
 Balloon-Fight;NES;75454
 Balloon-Fight--Virtual-Console-;NES;75457
@@ -375,9 +387,11 @@ BattleCity--Namcot-Collection-Namco-Museum-Archives-Vol-2-;NES;75503
 Battleship;NES;75504
 Battletoads;NES;75505
 Battletoads-Double-Dragon;NES;75508
+Battletoads-Double-Dragon--Retro-Bit-;NES;94260
 Beauty-and-the-Beast;NES;75511
 Best-of-the-Best-Championship-Karate;NES;75515
 Bigfoot;NES;75523
+Bill-&-Teds-Excellent-Video-Game-Adventure--Retro-Collection-;NES;94262
 Bio-Miracle-Baby-Upa!!;NES;109
 Bio-Warrior-Dan-The-Inkliezar-Battle;NES;112
 Bionic-Commando;NES;75534
@@ -394,6 +408,10 @@ Bubble-Bobble--Virtual-Console-;NES;75579
 Bucky-OHare;NES;75582
 Bugs-Bunny-Blowout-The;NES;75586
 Burai-Fighter;NES;75589
+BurgerTime--Evercade-;NES;94919
+BurgerTime--Evercade-;NES;94963
+Burnin-Rubber--Evercade-;NES;94964
+Burnin-Rubber--Evercade-;NES;94920
 Cadillac;NES;2872
 California-Games;NES;75598
 Capcoms-Gold-Medal-Challenge-92;NES;75608
@@ -404,9 +422,12 @@ Captain-Tsubasa-Vol.-II-Super-Striker;NES;2876
 Castelian;NES;75617
 Castle-Quest;NES;2878
 Castlevania;NES;75619
+Castlevania--Castlevania-Anniversary-Collection-;NES;93973
 Castlevania--Virtual-Console-;NES;75622
 Castlevania-II-Simons-Quest;NES;75624
+Castlevania-II-Simons-Quest--Castlevania-Anniversary-Collection-;NES;93974
 Castlevania-III-Draculas-Curse;NES;75631
+Castlevania-III-Draculas-Curse--Castlevania-Anniversary-Collection-;NES;93975
 Castlevania-III-Draculas-Curse--USA-Wii-Virtual-Console-Wii-U-Virtual-Console-;NES;75630
 Castlevania-III-Draculas-Curse--Wii-Virtual-Console-;NES;75629
 Championship-Rally;NES;75639
@@ -415,7 +436,9 @@ Chaos-World;NES;166
 Chessmaster-The;NES;75648
 Chester-Field;NES;169
 Chip-n-Dale-Rescue-Rangers;NES;75658
+Chip-n-Dale-Rescue-Rangers--The-Disney-Afternoon-Collection---Switch-;NES;93976
 Chip-n-Dale-Rescue-Rangers-2;NES;75662
+Chip-n-Dale-Rescue-Rangers-2--The-Disney-Afternoon-Collection---Switch-;NES;93977
 Choujin-Sentai-Jetman;NES;175
 Chronicle-of-the-Radia-War;NES;177
 Chuuka-Taisen;NES;180
@@ -429,12 +452,16 @@ Cocoron;NES;190
 Columbus-Golden-Dawn;NES;2880
 Contra;NES;2881
 Contra;NES;387
+Contra--Contra-Anniversary-Collection-;NES;93978
+Contra--Contra-Anniversary-Collection-;NES;93978
 Corvette-ZR-1-Challenge;NES;75711
 Cosmic-Epsilon;NES;2883
 Cosmo-Genesis;NES;208
 Cosmo-Police-Galivan;NES;210
 Crackout;NES;75719
 Crisis-Force;NES;2885
+Crystalis--SNK-40th-Anniversary-Collection-;NES;93979
+Cyberstar-Education-Computer--Pirate-;NES;94294
 Dai-Senryaku;NES;219
 Dans-Dodgeball;NES;2938
 Dans-Dodgeball-2;NES;2940
@@ -442,6 +469,7 @@ Danny-Sullivans-Indy-Heat;NES;75744
 Dark-Lord;NES;2887
 Darkman;NES;75746
 Darkwing-Duck;NES;75747
+Darkwing-Duck--The-Disney-Afternoon-Collection---Switch-;NES;93980
 David-Cranes-A-Boy-and-His-Blob-Trouble-on-Blobolonia;NES;75760
 Days-of-Thunder;NES;75762
 Deep-Dungeon-IV---The-Black-Sorcerer;NES;232
@@ -451,6 +479,7 @@ Devil-World;NES;75781
 Devilman;NES;2889
 Dezaemon;NES;244
 Die-Hard;NES;75783
+Dig-Dug--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;93981
 Dig-Dug-II--Namco-Museum-Archives-Vol-2-;NES;75788
 Dig-Dug-II-Trouble-in-Paradise--Virtual-Console-;NES;75789
 Digger-T.-Rock-The-Legend-of-the-Lost-City;NES;75790
@@ -478,6 +507,7 @@ Dragon-Ball-Z-Gaiden-Plan-to-Eliminate-the-Saiyans;NES;2892
 Dragon-Ball-Z-III-Killer-Androids;NES;2894
 Dragon-Ball-Z-Assault-of-the-Saiyans;NES;274
 Dragon-Ball-Dragon-Mystery;NES;270
+Dragon-Buster--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;93984
 Dragon-Buster-II-Seal-of-Darkness;NES;2897
 Dragon-Buster-II-Yami-no-Fuuin--Namco-Museum-Archives-Vol-2-;NES;75847
 Dragon-Scroll-Resurrection-of-the-Demon-Dragon;NES;2899
@@ -486,26 +516,36 @@ Dragon-Spirit-The-New-Legend--Namco-Museum-Archives-Vol-1-;NES;75859
 Dragons-Lair;NES;75864
 Dream-Penguin-Adventure-The-Quest-for-Penkos-Heart;NES;284
 Dropzone;NES;75871
+Druaga-no-Tou--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;93986
 Duck-Hunt;NES;288
 DuckTales;NES;75879
+DuckTales--The-Disney-Afternoon-Collection---Switch-;NES;93987
 DuckTales-2;NES;75881
+DuckTales-2--The-Disney-Afternoon-Collection-;NES;93988
 Dynablaster;NES;75892
 EarthBound-Beginnings--Virtual-Console-;NES;296
 Egypt;NES;297
 Eliminator-Boat-Duel;NES;75901
+Eliminator-Boat-Duel--Evercade-;NES;94930
+Eliminator-Boat-Duel--Evercade-;NES;94967
 Elite;NES;75902
 Elysion;NES;2905
 Elysion;NES;2908
 Eric-Cantona-Football-Challenge-Goal!-2;NES;75910
 Esper-Dream-2;NES;2910
 Excitebike;NES;75921
+Excitebike--Switch-Online-;NES;93989
 Excitebike--Virtual-Console-;NES;75923
+Exploding-Fist--Piko-Interactive-;NES;94906
+Exploding-Fist--Piko-Interactive---Alt-;NES;94931
 F-15-Strike-Eagle;NES;75940
 F-15-Strike-Eagle;NES;75943
 F-15-Strike-Eagle;NES;75942
 Famicom-Wars;NES;2912
 Faxanadu;NES;76002
 Felix-the-Cat--Hudson-;NES;76006
+Felix-the-Cat--Limited-Run-Games---Switch-;NES;94344
+Felix-the-Cat--Limited-Run-Games---Switch-;NES;94345
 Ferrari-Grand-Prix-Challenge;NES;76009
 Festers-Quest;NES;76010
 Final-Fantasy-II;NES;317
@@ -513,6 +553,7 @@ Final-Fantasy-III;NES;319
 Final-Mission;NES;2914
 Fire-Bird;NES;323
 Fire-Emblem-Gaiden;NES;325
+Firework-Thrower-Kantaros-53-Stations-of-the-Toukaido;NES;94933
 Fist-of-the-North-Star;NES;2916
 Flintstones-The-The-Rescue-of-Dino-&-Hoppy;NES;76042
 Flintstones-The-The-Surprise-at-Dinosaur-Peak;NES;76044
@@ -521,6 +562,8 @@ Four-Players-Tennis;NES;76054
 Future-Soldier-Lios;NES;343
 Fuzzical-Fighter;NES;345
 Galaga;NES;76070
+Galaga--Namcot-Collection-Namco-Museum-Archives-Vol-2-;NES;93993
+Galaxian--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;93994
 Galaxy-5000-Racing-in-the-51st-Century;NES;76077
 Ganbare-Goemon;NES;351
 Ganbare-Goemon-2;NES;2918
@@ -548,8 +591,10 @@ Gumshoe;NES;390
 Gun.Smoke;NES;76186
 Gyromite;NES;393
 Hammerin-Harry;NES;76194
-Hello-Kitty-World;NES;2927
+Hammerin-Harry--Retro-Bit-;NES;94373
+Hammerin-Harry-2--Retro-Bit-;NES;94374
 Hello-Kitty-World;NES;401
+Hello-Kitty-World;NES;2927
 Hello-Kittys-Flower-Shop;NES;399
 Higemaru-Seven-Islands-Adventure;NES;2928
 High-Speed;NES;76226
@@ -567,6 +612,7 @@ Ice-Climber;NES;416
 Ice-Hockey;NES;76278
 Ice-Hockey--Virtual-Console-;NES;76279
 Ikari-Warriors;NES;76295
+Immortal-The--QUByte-Classics-;NES;94388
 Incredible-Crash-Dummies-The;NES;76304
 Indiana-Jones-and-the-Last-Crusade;NES;76305
 Iron-Tank-The-Invasion-of-Normandy;NES;76311
@@ -579,6 +625,7 @@ Jackie-Chans-Action-Kung-Fu;NES;76325
 James-Bond-Jr;NES;76329
 Jesus-The-Terrifying-Bio-Monster;NES;4397
 Jetsons-The-Cogswells-Caper;NES;76339
+Jim-Power-The-Lost-Dimension--QUByte-Classics-;NES;94084
 Jimmy-Connors-Tennis;NES;76344
 Joe-&-Mac-Caveman-Ninja;NES;76345
 Journey-to-Silius;NES;76349
@@ -586,16 +633,20 @@ Joy-Mech-Fight;NES;451
 Jungle-Book-The;NES;76361
 Jungle-Book-The--Disney-Classic-Games-;NES;76362
 Jurassic-Park;NES;76364
+Jurassic-Park--Limited-Run-Games-;NES;94401
 Just-Breed;NES;4399
 Kabuki-Quantum-Fighter;NES;76370
 Kantaro-the-Pyros-Journey-Across-the-Toukaido;NES;4973
 Kantaro-the-Pyros-Journey-Across-the-Toukaido;NES;4975
+Karate-Champ--Evercade-;NES;94937
+Karate-Champ--Evercade-;NES;94969
 Karnov;NES;4977
 Kero-Kero-Keroppis-Big-Adventure;NES;459
 Kero-Kero-Keroppis-Great-Big-Adventure-2-Trouble-in-Donut-Pond;NES;461
 Keroppi-&-Keroleens-Splash-Bomb!;NES;463
 Kick-Off;NES;76400
 Kickle-Cubicle;NES;76401
+Kid-Dracula--Castlevania-Anniversary-Collection-;NES;93960
 Kid-Icarus;NES;467
 Kid-Icarus--Virtual-Console-;NES;76403
 Kid-Niki-2;NES;471
@@ -634,6 +685,7 @@ Mach-Rider--Virtual-Console-;NES;76527
 Magical-Doropie;NES;526
 Maniac-Mansion;NES;76582
 Maniac-Mansion;NES;76585
+Mappy--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;94003
 Mappy-Land--Namco-Museum-Archives-Vol-2-;NES;76594
 Mappy-Land--Virtual-Console-;NES;76595
 Marble-Madness;NES;76596
@@ -646,14 +698,20 @@ Mario-is-Missing!;NES;76602
 Maze-of-Galious;NES;541
 McDonaldland;NES;76618
 Mega-Man;NES;76620
+Mega-Man--Mega-Man-Legacy-Collection-;NES;93961
 Mega-Man-2;NES;76627
+Mega-Man-2--Mega-Man-Legacy-Collection-;NES;93962
 Mega-Man-2--Virtual-Console-;NES;76624
 Mega-Man-3;NES;76628
+Mega-Man-3--Mega-Man-Legacy-Collection-;NES;93963
 Mega-Man-3--Virtual-Console-;NES;76632
 Mega-Man-4;NES;76637
+Mega-Man-4--Mega-Man-Legacy-Collection-;NES;93964
 Mega-Man-4--Virtual-Console-;NES;76635
 Mega-Man-5;NES;76638
+Mega-Man-5--Mega-Man-Legacy-Collection-;NES;93965
 Mega-Man-5--Virtual-Console-;NES;76640
+Mega-Man-6--Mega-Man-Legacy-Collection-;NES;93966
 Mendel-Palace--Namco-Museum-Archives-Vol-2-;NES;76653
 Metal-Gear;NES;76659
 Metroid;NES;76670
@@ -677,9 +735,14 @@ New-Ghostbusters-II;NES;76813
 NewZealand-Story-The;NES;76817
 Nigel-Mansells-World-Championship;NES;76822
 Ninja-Boy-2;NES;609
+Ninja-JaJaMarus-Big-Adventure--Ninja-JaJaMaru-Retro-Collection---Switch-;NES;94123
+Ninja-JaJaMaru-kun--Ninja-JaJaMaru-Retro-Collection---Switch-;NES;94122
 Ninja-Jajamaru-kun--Virtual-Console-;NES;76843
 Ninja-Jajamaru-Galactic-Battle;NES;615
 Ninja-Jajamaru-Legend-of-a-Demons-Attack;NES;4395
+Ninja-JaJaMaru-Operation-Milky-Way--Ninja-JaJaMaru-Retro-Collection---Switch-;NES;94119
+Ninja-JaJaMaru-The-Legend-of-the-Golden-Castle--Ninja-JaJaMaru-Retro-Collection---Switch-;NES;94120
+Ninja-JaJaMaru-The-Ninja-Skill-Book--Ninja-JaJaMaru-Retro-Collection---Switch-;NES;94121
 Nintendo-World-Cup;NES;76861
 Noahs-Ark;NES;76869
 North-&-South;NES;76878
@@ -688,7 +751,9 @@ Operation-Wolf;NES;76894
 Over-Horizon;NES;76902
 P.O.W.-Prisoners-of-War;NES;76904
 Paaman-2-Down-with-the-Secret-Madou-Society!;NES;628
+Pac-Land--Namcot-Collection-Namco-Museum-Archives-Vol-2-;NES;94007
 Pac-Man;NES;76908
+Pac-Man--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;94008
 Pac-Man-Championship-Edition--Namco-Museum-Archives-Vol-1-;NES;76911
 Panic-Restaurant;NES;76926
 Paperboy;NES;76928
@@ -707,6 +772,7 @@ Princesstual-Orgy;NES;660
 Pro-Wrestling;NES;77007
 Probotector;NES;77012
 Probotector-II-Return-of-the-Evil-Forces;NES;77013
+Probotector-II-Return-of-the-Evil-Forces--Contra-Anniversary-Collection-;NES;94010
 Punch-Out!!;NES;77026
 Punch-Out!!--Virtual-Console-;NES;77028
 Puyo-Puyo;NES;669
@@ -722,6 +788,7 @@ Rainbow-Silkroad;NES;689
 Rampart--Jaleco-;NES;77069
 Rescue-The-Embassy-Mission;NES;77080
 Riki-Kunio;NES;706
+Ripple-Island;NES;94946
 Road-Fighter;NES;77086
 RoadBlasters;NES;77088
 Robin-Hood-Prince-of-Thieves;NES;77091
@@ -733,6 +800,7 @@ Rockin-Kats;NES;77106
 Rockman-2-Dr.-Wilys-Riddle;NES;721
 Rodland;NES;77119
 Rollergames;NES;77124
+Rolling-Thunder--Namcot-Collection-Namco-Museum-Archives-Vol-2-;NES;94012
 Roundball-2-on-2-Challenge;NES;77130
 Rushn-Attack;NES;77136
 Rygar;NES;77137
@@ -756,6 +824,7 @@ Simpsons-The-Bart-vs.-the-World;NES;77246
 Simpsons-The-Bartman-Meets-Radioactive-Man;NES;77247
 Skate-or-Die;NES;77252
 Ski-or-Die;NES;77253
+Sky-Kid--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;94013
 Slalom;NES;77260
 Smash-T.V.;NES;77265
 Smurfs-The;NES;77266
@@ -771,6 +840,7 @@ Solstice-The-Quest-for-the-Staff-of-Demnos;NES;77287
 Spelunker--Virtual-Console-;NES;77303
 Spelunker-II;NES;792
 Spider-Man-Return-of-the-Sinister-Six;NES;77305
+Splatterhouse-Wanpaku-Graffiti--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;94014
 Spy-vs-Spy;NES;77311
 Stack-Up;NES;800
 Stadium-Events;NES;77318
@@ -785,6 +855,7 @@ Street-Gangs;NES;77349
 Street-Gangs--Virtual-Console-;NES;77350
 Sugoro-Quest;NES;822
 Sumo-Wrestling;NES;824
+Super-C--Contra-Anniversary-Collection-;NES;94017
 Super-Mario-Bros.;NES;77389
 Super-Mario-Bros.;NES;834
 Super-Mario-Bros.-+-Duck-Hunt;NES;77392
@@ -803,8 +874,11 @@ Sword-Master;NES;77439
 Swords-and-Serpents;NES;77444
 Tabos-Tactics;NES;850
 TaleSpin;NES;77468
+TaleSpin--The-Disney-Afternoon-Collection---Switch-;NES;94018
+Target-Renegade--Evercade-;NES;94953
 Technos-Ice-Hockey;NES;861
 Technos-Samurai;NES;863
+Tecmo-Bowl--Virtual-Console-Switch-Online-;NES;93967
 Tecmo-Cup-Football-Game;NES;77491
 Tecmo-World-Cup-Soccer;NES;77496
 Tecmo-World-Wrestling;NES;77498
@@ -818,6 +892,7 @@ Terminator-The;NES;875
 Tetrastar-The-Fighter--;NES;878
 Tetris;NES;77523
 Tetris-2;NES;77526
+Thunderbolt-Fighting-Plane--QUByte-Classics-;NES;94626
 Tiger-Heli;NES;77537
 Time-Lord;NES;77543
 Time-Zone;NES;891
@@ -839,6 +914,8 @@ Trolls-in-Crazyland-The;NES;77589
 Turbo-Racing;NES;77596
 Twin-Bee-3--;NES;915
 Ufouria-The-Saga;NES;77615
+Ufouria-The-Saga--Evercade-;NES;94957
+Ufouria-The-Saga--Evercade-;NES;94972
 Ufouria-The-Saga--Wii-U-Virtual-Console-;NES;77617
 Ufouria-The-Saga--Wii-Virtual-Console-;NES;77618
 Ultimate-Air-Combat;NES;77622
@@ -853,6 +930,7 @@ Warrior-of-Algos;NES;946
 Werewolf-The-Last-Warrior;NES;77685
 Wild-Gunman;NES;961
 Willow;NES;77690
+Wing-of-Madoola-The;NES;94959
 Wizards-&-Warriors;NES;77700
 Wizards-&-Warriors-III-Kuros...Visions-of-Power;NES;77701
 World-Champ;NES;77710
@@ -864,6 +942,7 @@ WWF-WrestleMania;NES;77717
 WWF-WrestleMania-Challenge;NES;77719
 WWF-WrestleMania-Steel-Cage-Challenge;NES;77718
 Xevious;NES;77721
+Xevious--Namcot-Collection-Namco-Museum-Archives-Vol-1-;NES;94022
 Yoshis-Cookie;NES;77740
 Yoshis-Cookie--Virtual-Console-;NES;77742
 Ys;NES;989
@@ -876,7 +955,12 @@ Zombie-Hunter;NES;996
 [BIOS]-Wide-Boy;NES;75233
 10-Yard-Fight;NES;3
 100-World-Story-The-The-Tales-on-a-Watery-Wilderness;NES;1
+16-in-1-Cassetta-Videogame--Pirate-;NES;94206
+23-in-1-Super-Game--K23-001---Pirate-;NES;94029
 3-D-Battles-of-World-Runner-2-The;NES;4401
+8-Eyes--Piko-Interactive-;NES;94907
+8-Eyes--Pixel-Heart-;NES;94909
+9999999-in-1--Pirate-;NES;94226
 Ace-of-Aces;SMS;83656
 Action-Fighter;SMS;83659
 Action-Fighter;SMS;83660
@@ -953,7 +1037,7 @@ Dragon-The-Bruce-Lee-Story;SMS;83804
 Dynamite-Duke;SMS;83806
 Dynamite-Dux;SMS;83807
 E-SWAT;SMS;83810
-Ecco-The-Dolphin;SMS;83816
+Ecco-the-Dolphin;SMS;83816
 Enduro-Racer;SMS;83817
 F-16-Fighter;SMS;83821
 F1;SMS;83825
@@ -1066,7 +1150,7 @@ Renegade;SMS;84077
 Rescue-Mission;SMS;84078
 Road-Rash;SMS;84080
 RoboCop-3;SMS;84081
-RoboCop-versus-The-Terminator;SMS;84082
+RoboCop-Versus-The-Terminator;SMS;84082
 Rocky;SMS;84083
 Running-Battle;SMS;84084
 Sagaia;SMS;84085
@@ -1095,6 +1179,7 @@ Space-Harrier;SMS;84138
 Space-Harrier-3-D;SMS;84139
 Special-Criminal-Investigation;SMS;84142
 Speedball;SMS;84143
+Speedball--Evercade-;SMS;94810
 Speedball-2;SMS;84145
 SpellCaster;SMS;84146
 Spider-Man;SMS;84147
@@ -1156,7 +1241,7 @@ Zillion;SMS;84273
 Zillion-II-The-Tri-Formation;SMS;84275
 Zool-Ninja-of-the-Nth-Dimension;SMS;84277
 [BIOS]-Alex-Kidd-in-Miracle-World;SMS;83630
-[BIOS]-Alex-Kidd-in-Miracle-World--BIOS-Version---Sega-Ages-;SMS;83631
+[BIOS]-Alex-Kidd-in-Miracle-World--Sega-Ages-;SMS;83631
 [BIOS]-Hang-On;SMS;83632
 [BIOS]-Hang-On-&-Safari-Hunt;SMS;83633
 [BIOS]-Missile-Defense-3-D;SMS;83634
@@ -1239,6 +1324,7 @@ World-Sports-Competition--Wii-U-Virtual-Console-;TG16;93062
 Aaahh!!!-Real-Monsters;Genesis;43933
 Addams-Family-Values;Genesis;43937
 Addams-Family-The;Genesis;1808
+Advanced-Busterhawk-Gley-Lancer--Retro-Bit-;Genesis;94755
 Adventures-of-Batman-&-Robin-The;Genesis;43955
 Adventures-of-Mighty-Max-The;Genesis;43956
 Aero-the-Acro-Bat;Genesis;43959
@@ -1251,6 +1337,7 @@ Aladdin--Disney-Classic-Games-;Genesis;43973
 Aladdin--Disney-Classic-Games-;Genesis;43974
 Alex-Kidd-in-the-Enchanted-Castle;Genesis;43979
 Alien-3;Genesis;1819
+Alien-3--Pirate-;Genesis;93874
 Alien-Soldier;Genesis;43980
 Alien-Soldier--Switch-Online-;Genesis;50588
 Alien-Storm;Genesis;1820
@@ -1266,7 +1353,9 @@ Arcade-Classics;Genesis;1827
 Arcade-Legends-Sega-Mega-Drive;Genesis;43995
 Arcade-Legends-Street-Fighter-II-Special-Champion-Edition;Genesis;43996
 Arch-Rivals-The-Arcade-Game;Genesis;1828
+Arcus-Odyssey--Evercade-;Genesis;93721
 Ariel-The-Little-Mermaid;Genesis;1830
+Ariel-The-Little-Mermaid--Pirate-;Genesis;93876
 Arnold-Palmer-Tournament-Golf;Genesis;1831
 Arrow-Flash;Genesis;44007
 Art-Alive;Genesis;1833
@@ -1287,6 +1376,8 @@ Batman-Forever;Genesis;1853
 Batman-Returns;Genesis;1854
 Battle-Squadron;Genesis;1855
 Battletoads;Genesis;1858
+Beast-Wrestler--Evercade-;Genesis;94756
+Beastball--Evercade-;Genesis;94757
 Beavis-and-Butt-Head;Genesis;44062
 Bill-Walsh-College-Football;Genesis;1867
 Bio-Hazard-Battle;Genesis;1870
@@ -1313,10 +1404,13 @@ Buck-Rogers-Countdown-to-Doomsday;Genesis;1886
 Budokan-The-Martial-Spirit;Genesis;44127
 Bugs-Bunny-in-Double-Trouble;Genesis;44130
 Bulls-versus-Blazers-and-the-NBA-Playoffs;Genesis;1889
+Bulls-vs-Lakers--Pirate-;Genesis;93877
 Bulls-vs-Lakers-and-the-NBA-Playoffs;Genesis;1890
 Burning-Force;Genesis;44131
+Burning-Force--Evercade-;Genesis;94758
 California-Games;Genesis;1896
 Cannon-Fodder;Genesis;44135
+Cannon-Fodder--Evercade-;Genesis;94759
 Captain-America-and-the-Avengers;Genesis;44137
 Captain-Planet-and-the-Planeteers;Genesis;44140
 Castle-of-Illusion-Starring-Mickey-Mouse;Genesis;1898
@@ -1352,6 +1446,7 @@ Cyborg-Justice;Genesis;1948
 Daffy-Duck-in-Hollywood;Genesis;44265
 Darius--Genesis-Mini-Mega-Drive-Mini-;Genesis;44277
 Darius-II--Darius-Cozmic-Collection-;Genesis;44278
+Darius-Extra-Version--Strictly-Limited-Games-;Genesis;94760
 Dark-Castle;Genesis;1950
 David-Robinsons-Supreme-Court;Genesis;1953
 Davis-Cup-World-Tour;Genesis;1954
@@ -1362,6 +1457,7 @@ Desert-Demolition-Starring-Road-Runner-and-Wile-E.-Coyote;Genesis;1960
 Desert-Strike-Return-to-the-Gulf;Genesis;1961
 Dick-Tracy;Genesis;1963
 Dino-Dinis-Soccer;Genesis;44318
+Dino-Land--Evercade-;Genesis;94762
 Disney-Collection-The-QuackShot-Starring-Donald-Duck-+-Castle-of-Illusion-Starring-Mickey-Mouse;Genesis;44319
 DJ-Boy;Genesis;44321
 Donald-in-Maui-Mallard;Genesis;44325
@@ -1378,9 +1474,13 @@ Dynamite-Headdy;Genesis;1980
 EA-Hockey;Genesis;44362
 EA-Sports-Double-Header;Genesis;44363
 Earthworm-Jim;Genesis;44366
+Earthworm-Jim--Evercade-;Genesis;94763
 Earthworm-Jim-2;Genesis;44369
 Ecco-the-Dolphin;Genesis;1986
 Ecco-The-Tides-of-Time;Genesis;44370
+El.Viento--Evercade-;Genesis;94764
+El.Viento--Retro-Bit-;Genesis;93889
+Eliminate-Down--Retro-Bit-;Genesis;93890
 Elite--Tech-Demo-Game-;Genesis;44382
 Elite--Tech-Demo-Soaker-;Genesis;44383
 Elite--Tech-Demo-Viewer-;Genesis;44384
@@ -1390,6 +1490,7 @@ Eternal-Champions;Genesis;44404
 European-Club-Soccer;Genesis;44409
 Evander-Holyfields-Real-Deal-Boxing;Genesis;1996
 Ex-Mutants;Genesis;1997
+Exile--Evercade-;Genesis;94765
 Exo-Squad;Genesis;44416
 F-117-Night-Storm;Genesis;2000
 F-15-Strike-Eagle-II;Genesis;44421
@@ -1399,6 +1500,7 @@ F1-World-Championship-Edition;Genesis;44429
 Faery-Tale-Adventure-The;Genesis;2004
 Fantasia;Genesis;44434
 Fantasia;Genesis;2006
+Fantasia--Pirate-;Genesis;93892
 Fantastic-Dizzy;Genesis;2007
 Fantasy-Zone--Mega-Drive-Mini-2-Genesis-Mini-2-;Genesis;92115
 Fatal-Fury;Genesis;44438
@@ -1406,12 +1508,17 @@ Fatal-Labyrinth;Genesis;2010
 Fatal-Rewind;Genesis;2011
 Ferrari-Grand-Prix-Challenge;Genesis;44443
 Fever-Pitch-Soccer;Genesis;44444
+FIFA-2003--Pirate-;Genesis;93893
 FIFA-98-Road-to-World-Cup;Genesis;44447
 FIFA-International-Soccer;Genesis;2013
 FIFA-Soccer-95;Genesis;2014
+Fifa-Soccer-95--Pirate-;Genesis;93895
 FIFA-Soccer-96;Genesis;2015
 FIFA-Soccer-97;Genesis;2016
+FIFA-Soccer-99--Pirate-;Genesis;93896
+Final-Zone--Evercade-;Genesis;94766
 Fire-Shark;Genesis;44457
+Fire-Shark--Retro-Bit-;Genesis;93897
 Flashback;Genesis;44460
 Flicky;Genesis;2021
 Flink;Genesis;44462
@@ -1422,6 +1529,8 @@ Forgotten-Worlds;Genesis;2024
 Frank-Thomas-Big-Hurt-Baseball;Genesis;2025
 Fun-n-Games;Genesis;44472
 G-LOC-Air-Battle;Genesis;2028
+Gaiares--Evercade-;Genesis;94767
+Gaiares--Retro-Bit-;Genesis;93901
 Gain-Ground;Genesis;44483
 Galaxy-Force-II;Genesis;2032
 Galaxy-Force-II--SEGA-Classic-Collection-;Genesis;44487
@@ -1439,6 +1548,7 @@ Golden-Axe;Genesis;2046
 Golden-Axe--Sega-Smash-Pack-;Genesis;44511
 Golden-Axe-II;Genesis;2047
 Golden-Axe-III--Virtual-Console-;Genesis;44514
+Granada--Evercade-;Genesis;94768
 GrandSlam-The-Tennis-Tournament;Genesis;44517
 Greatest-Heavyweights;Genesis;44521
 Greendog-The-Beached-Surfer-Dude!;Genesis;2053
@@ -1450,13 +1560,18 @@ HardBall-94;Genesis;2059
 Haunting-Starring-Polterguy;Genesis;2062
 Havoc;Genesis;44532
 Hellfire;Genesis;44535
+Hellfire--Retro-Bit-;Genesis;93907
 Herzog-Zwei;Genesis;2066
 Home-Alone;Genesis;2069
 Hook;Genesis;44544
+Hoops-Shut-Up-and-Jam-2--Evercade-;Genesis;94769
+Hoops-Shut-Up-and-Jam!--Evercade-;Genesis;94770
 Hurricanes;Genesis;44546
 Hyper-Dunk;Genesis;44550
 IMG-International-Tour-Tennis;Genesis;2073
 Immortal-The;Genesis;2074
+Immortal-The--Evercade-;Genesis;94771
+Immortal-The--QUByte-Classics-;Genesis;94893
 Incredible-Crash-Dummies-The;Genesis;2075
 Incredible-Hulk-The;Genesis;2076
 Indiana-Jones-and-the-Last-Crusade;Genesis;44560
@@ -1471,9 +1586,11 @@ James-Pond-3;Genesis;2085
 James-Pond-II-Codename---Robocod;Genesis;2086
 James-Pond-Underwater-Agent;Genesis;2084
 Jewel-Master;Genesis;2093
+Jim-Power-The-Lost-Dimension-in-3D;Genesis;94894
 Jimmy-Whites-Whirlwind-Snooker;Genesis;44591
 Joe-Montana-Football;Genesis;2095
 Joe-Montana-II-Sports-Talk-Football;Genesis;2097
+Joe-Montana-II-Sports-Talk-Football--Pirate-;Genesis;93910
 John-Madden-Football;Genesis;2098
 John-Madden-Football-92;Genesis;2099
 John-Madden-Football-93--EA-Sports-;Genesis;91789
@@ -1514,6 +1631,7 @@ Lost-World-The-Jurassic-Park;Genesis;2111
 Lotus-II;Genesis;2138
 Lotus-Turbo-Challenge;Genesis;2139
 M-1-Abrams-Battle-Tank;Genesis;2140
+Mad-Stalker-Full-Metal-Forth--Strictly-Limited-Games-;Genesis;94773
 Madden-NFL-94;Genesis;2102
 Madden-NFL-95;Genesis;2142
 Madden-NFL-96;Genesis;2143
@@ -1537,7 +1655,9 @@ Mega-Man-The-Wily-Wars;Genesis;44751
 Mega-SWIV;Genesis;44754
 Mega-Turrican;Genesis;44755
 Mega-Turrican--Virtual-Console-;Genesis;44757
+Mega-Turrican-Directors-Cut;Genesis;94775
 Mega-lo-Mania;Genesis;44759
+Mega-lo-Mania--Evercade-;Genesis;94776
 Menacer-6-Game-Cartridge;Genesis;2160
 Mercs;Genesis;2161
 Michael-Jacksons-Moonwalker;Genesis;2162
@@ -1550,6 +1670,7 @@ Micro-Machines-2-Turbo-Tournament--J-Cart-;Genesis;44784
 Micro-Machines-Military--J-Cart-;Genesis;44780
 Micro-Machines-Turbo-Tournament-96--J-Cart-;Genesis;92323
 Micro-Machines-Turbo-Tournament-96--J-Cart-;Genesis;44781
+Midnight-Resistance--Evercade-;Genesis;94777
 Midway-Presents-Arcades-Greatest-Hits;Genesis;44787
 Mig-29-Fighter-Pilot;Genesis;44788
 Might-and-Magic-Gates-to-Another-World;Genesis;2169
@@ -1580,7 +1701,7 @@ NFL-Quarterback-Club;Genesis;2205
 NFL-Quarterback-Club-96;Genesis;2206
 NFL-Sports-Talk-Football-93-Starring-Joe-Montana;Genesis;2096
 NHL-94;Genesis;2207
-NHL-94--Re-release-;Genesis;44898
+NHL-94--NHL-06-;Genesis;44898
 NHL-95;Genesis;2208
 NHL-96;Genesis;2209
 NHL-97;Genesis;2210
@@ -1621,10 +1742,12 @@ Phantasy-Star-III-Generations-of-Doom--SEGA-Classic-Collection-;Genesis;45003
 Phantasy-Star-IV;Genesis;45010
 Phantom-2040;Genesis;45012
 Phelios;Genesis;45013
+Phelios--Evercade-;Genesis;94779
 Pink-Goes-to-Hollywood;Genesis;2252
 Pinocchio;Genesis;45022
 Pirates-of-Dark-Water-The;Genesis;45023
 Pit-Fighter;Genesis;2256
+Pit-Fighter--Pirate-;Genesis;93918
 Pitfall-The-Mayan-Adventure;Genesis;45026
 Pocahontas;Genesis;45028
 Populous;Genesis;45033
@@ -1633,6 +1756,7 @@ Power-Monger;Genesis;2260
 Predator-2;Genesis;2262
 Premier-Manager;Genesis;45038
 Premier-Manager-97;Genesis;45039
+Premier-Manager-97--Evercade-;Genesis;94781
 Primal-Rage;Genesis;2263
 Prince-of-Persia;Genesis;45043
 Probotector;Genesis;45052
@@ -1640,14 +1764,17 @@ Probotector--60-Hz---Contra-Anniversary-Collection-;Genesis;45055
 Probotector--Contra-Anniversary-Collection-;Genesis;45054
 Probotector--Mega-Drive-Mini-;Genesis;45053
 Psycho-Pinball;Genesis;45057
+Psycho-Pinball--Evercade-;Genesis;94782
 Puggsy;Genesis;45060
 Punisher-The;Genesis;45063
 Puyo-Puyo-Tsuu--Virtual-Console-;Genesis;45070
 Puzzle-&-Action-Ichidanto-R--Sega-Ages-;Genesis;45071
 QuackShot-Starring-Donald-Duck;Genesis;2268
 QuackShot-Starring-Donald-Duck--Alt-;Genesis;45079
+Quad-Challenge--Evercade-;Genesis;94783
 R.B.I.-Baseball-94;Genesis;2280
 Radical-Rex;Genesis;45086
+Radical-Rex--QUByte-Classics-;Genesis;94897
 Rambo-III;Genesis;2273
 Ranger-X;Genesis;45091
 Red-Zone;Genesis;2281
@@ -1678,6 +1805,8 @@ seaQuest-DSV;Genesis;45162
 Second-Samurai;Genesis;45163
 Sega-Sports-1;Genesis;45172
 Sensible-Soccer;Genesis;45174
+Sensible-Soccer--Evercade-;Genesis;94784
+Shadow-Dancer--Pirate-;Genesis;93924
 Shadow-Dancer-The-Secret-of-Shinobi;Genesis;2316
 Shadow-Dancer-The-Secret-of-Shinobi--SEGA-Classic-Collection-;Genesis;45177
 Shadow-of-the-Beast;Genesis;2317
@@ -1690,11 +1819,14 @@ Shining-in-the-Darkness;Genesis;2324
 Shinobi-III-Return-of-the-Ninja-Master;Genesis;45206
 Side-Pocket;Genesis;45218
 Simpsons-The-Bart-vs.-the-Space-Mutants;Genesis;2329
+Simpsons-The-Bart-vs.-the-Space-Mutants--Pirate-;Genesis;93928
 Simpsons-The-Barts-Nightmare;Genesis;2328
 Skeleton-Krew;Genesis;45220
 Skitchin;Genesis;2331
 Smurfs-The;Genesis;45227
 Snake-Rattle-n-Roll;Genesis;45228
+Sol-Deace--Evercade-;Genesis;94785
+Sol-Deace--Retro-Bit-;Genesis;93929
 Soleil;Genesis;45231
 Sonic-&-Knuckles;Genesis;2337
 Sonic-&-Knuckles--Sonic-Classic-Collection-;Genesis;45242
@@ -1719,6 +1851,7 @@ Space-Harrier-II;Genesis;2347
 Sparkster;Genesis;45301
 Spatter--Mega-Drive-Mini-2-Genesis-Mini-2-;Genesis;92118
 Speedball-2;Genesis;45303
+Speedball-2-Brutal-Deluxe--Evercade-;Genesis;93722
 Spider-Man--Acclaim-;Genesis;2351
 Spider-Man--Sega-;Genesis;2355
 Spider-Man-.-Venom-Maximum-Carnage;Genesis;2352
@@ -1726,18 +1859,23 @@ Spider-Man-X-Men-Arcades-Revenge;Genesis;45308
 Spider-Man-X-Men-Arcades-Revenge;Genesis;2354
 Spirou;Genesis;45310
 Splatterhouse-2;Genesis;45312
+Splatterhouse-2--Evercade-;Genesis;94786
+Splatterhouse-3--Evercade-;Genesis;94787
 Spot-Goes-to-Hollywood;Genesis;45317
 Star-Mobile--Mega-Drive-Mini-2-Genesis-Mini-2-;Genesis;92119
+Star-Odyssey--Super-Fighter-Team-;Genesis;45321
 Star-Trek-Deep-Space-Nine---Crossroads-of-Time;Genesis;45323
 Starflight;Genesis;2362
 Stargate;Genesis;2363
 Steel-Talons;Genesis;2365
+Stone-Protectors--Steam-;Genesis;94900
 Story-of-Thor-The;Genesis;45338
 Story-of-Thor-The--Mega-Drive-Mini-;Genesis;45345
 Street-Fighter-II-Special-Champion-Edition;Genesis;45353
 Street-Fighter-II-Special-Champion-Edition--Virtual-Console-;Genesis;45352
 Street-Racer;Genesis;45357
 Streets-of-Rage;Genesis;2369
+Streets-of-Rage--Pirate-;Genesis;93932
 Streets-of-Rage-3;Genesis;45361
 Streets-of-Rage-II;Genesis;44046
 Strider;Genesis;2372
@@ -1763,7 +1901,9 @@ Super-Street-Fighter-II--Virtual-Console-;Genesis;45427
 Super-Thunder-Blade;Genesis;2386
 Superman-The-Man-of-Steel;Genesis;45434
 Sword-of-Sodan;Genesis;2389
+Sword-of-Sodan--Evercade-;Genesis;94788
 Sword-of-Vermilion;Genesis;2390
+Syd-of-Valis--Retro-Bit-;Genesis;93934
 Sylvester-&-Tweety-in-Cagey-Capers;Genesis;2392
 Syndicate;Genesis;2393
 T2-Terminator-2---Judgment-Day;Genesis;2412
@@ -1777,11 +1917,13 @@ Team-USA-Basketball;Genesis;2399
 TechnoClash;Genesis;2400
 Teenage-Mutant-Hero-Turtles-The-Hyperstone-Heist;Genesis;45471
 Teenage-Mutant-Hero-Turtles-Tournament-Fighters;Genesis;45472
+Terminator-2--Pirate-;Genesis;93939
 Terminator-The;Genesis;45482
 Theme-Park;Genesis;2414
 Thunder-Force-II;Genesis;2416
 Thunder-Force-IV;Genesis;45490
 Time-Killers;Genesis;45496
+Tinhead--QUByte-Classics-;Genesis;94902
 Tintin-in-Tibet;Genesis;45499
 Tiny-Toon-Adventures-ACME-All-Stars;Genesis;45502
 Tiny-Toon-Adventures-Busters-Hidden-Treasure;Genesis;45503
@@ -1792,16 +1934,25 @@ Toki-Going-Ape-Spit;Genesis;2429
 Total-Football;Genesis;45524
 Toughman-Contest;Genesis;2435
 Toy-Story;Genesis;45526
+Traysia--Evercade-;Genesis;94789
 True-Lies;Genesis;2445
 Truxton;Genesis;2446
 Truxton--Arcade-Audio---Mega-Drive-Mini-2-Genesis-Mini-2-;Genesis;92122
+Truxton--Retro-Bit-;Genesis;93941
 Turbo-OutRun;Genesis;45534
 Twin-Hawk;Genesis;44274
 Two-Crude-Dudes;Genesis;45540
+Two-Crude-Dudes--Evercade-;Genesis;94790
 Two-Tribes-Populous-II;Genesis;45541
 Ultimate-Mortal-Kombat-3;Genesis;45543
 Ultimate-Soccer;Genesis;45544
+Ultracore--Strictly-Limited-Games-;Genesis;94791
+Ultracore--Switch-PS-Vita-;Genesis;94793
 Urban-Strike;Genesis;2457
+Valis--Evercade-;Genesis;94795
+Valis--Retro-Bit-;Genesis;93942
+Valis-III--Evercade-;Genesis;94796
+Valis-III--Retro-Bit-;Genesis;93943
 Vectorman;Genesis;2461
 Vectorman--Sega-Smash-Pack-;Genesis;45562
 Venom-.-Spider-Man-Separation-Anxiety;Genesis;2353
@@ -1816,6 +1967,8 @@ Wayne-Gretzky-and-the-NHLPA-All-Stars;Genesis;2477
 Where-in-the-World-Is-Carmen-Sandiego;Genesis;45600
 Where-in-Time-Is-Carmen-Sandiego;Genesis;2481
 Wimbledon;Genesis;45605
+Winter-Challenge--Evercade-;Genesis;94797
+Winter-Challenger--Pirate-;Genesis;93944
 Winter-Olympics;Genesis;45608
 Wiz-n-Liz-The-Frantic-Wabbit-Wescue;Genesis;45611
 Wolverine-Adamantium-Rage;Genesis;2489
@@ -1825,7 +1978,9 @@ World-Championship-Soccer-II;Genesis;45618
 World-Class-Leader-Board;Genesis;45637
 World-Cup-Italia-90;Genesis;45638
 World-Cup-USA-94;Genesis;2494
+World-of-Illusion--Pirate-;Genesis;93945
 World-of-Illusion-Starring-Mickey-Mouse-and-Donald-Duck;Genesis;45660
+World-Trophy-Soccer--Evercade-;Genesis;94798
 Worms;Genesis;45694
 Worms--Evercade-;Genesis;93723
 Wrestle-War;Genesis;45698
@@ -1836,13 +1991,18 @@ WWF-WrestleMania-The-Arcade-Game;Genesis;2505
 X-Men;Genesis;45703
 X-Men-2-Clone-Wars;Genesis;2507
 Xenon-2-Megablast;Genesis;45726
+Xenon-2-Megablast--Evercade-;Genesis;94799
 Yogi-Bear-Cartoon-Capers;Genesis;45735
 Zany-Golf;Genesis;2511
 Zero-the-Kamikaze-Squirrel;Genesis;45745
 Zero-Tolerance;Genesis;89362
 Zero-Tolerance;Genesis;2513
+Zero-Tolerance--Evercade-GOG-;Genesis;94800
+Zero-Tolerance--Switch-;Genesis;94801
 Zero-Wing;Genesis;45746
+Zero-Wing--Retro-Bit-;Genesis;93951
 Zombies;Genesis;45752
+Zool--Evercade-;Genesis;94803
 Zool-Ninja-of-the-Nth-Dimension;Genesis;45754
 Zoom!;Genesis;2516
 Zoop;Genesis;45755
@@ -1866,6 +2026,7 @@ Adventures-of-Batman-&-Robin-The;SNES;41083
 Adventures-of-Dr.-Franken-The;SNES;41084
 Adventures-of-Mighty-Max-The;SNES;41085
 Aero-the-Acro-Bat;SNES;41087
+Aero-the-Acro-Bat--Evercade-;SNES;94739
 Aero-the-Acro-Bat-2;SNES;41088
 Aguri-Suzuki-F-1-Super-Driving;SNES;41091
 Aim-for-the-Ace!;SNES;1025
@@ -1886,6 +2047,7 @@ Archer-Macleans-Super-Dropzone;SNES;41150
 Ardy-Lightfoot;SNES;41152
 Arkanoid;SNES;41160
 Art-of-Fighting;SNES;41162
+Assault-Suits-Valken--Retro-Bit---NTSC-;SNES;94699
 Assault-Suits-Valken--Switch-;SNES;91694
 Asterix;SNES;41167
 Asterix-&-Obelix;SNES;41169
@@ -1897,9 +2059,11 @@ BASS-Masters-Classic-Pro-Edition;SNES;41188
 Bastard!!-Dark-God-of-Destruction;SNES;1057
 Batman-Forever;SNES;41190
 Batman-Returns;SNES;41193
+Battle-Cars--Evercade-;SNES;94740
 Battle-Clash;SNES;41198
 Battletoads-in-Battlemaniacs;SNES;41217
 Battletoads-Double-Dragon;SNES;41220
+Battletoads-Double-Dragon--Retro-Bit---NTSC-;SNES;94700
 BB-Gun-Survival-Game-Simulation;SNES;1048
 Beauty-and-the-Beast;SNES;41221
 Beavis-and-Butt-Head;SNES;41223
@@ -1912,9 +2076,11 @@ Blackhawk;SNES;41253
 Blazing-Skies;SNES;41259
 Blues-Brothers-The;SNES;41262
 Boogerman-A-Pick-and-Flick-Adventure;SNES;41269
+Boogerman-A-Pick-and-Flick-Adventure--Evercade-;SNES;94741
 Boxing-Legends-of-the-Ring;SNES;41273
 Brainies-The;SNES;41275
 Bram-Stokers-Dracula;SNES;41276
+Brawl-Brothers--Evercade-;SNES;94742
 Brawl-Brothers-Rival-Turf!-2;SNES;41281
 Breath-of-Fire--Switch-Online-;SNES;41282
 Breath-of-Fire-II;SNES;1095
@@ -1940,12 +2106,16 @@ Castlevania-Vampires-Kiss--Castlevania-Advance-Collection-;SNES;41331
 Champions-World-Class-Soccer;SNES;41333
 Championship-Pool;SNES;41335
 Chaos-Engine-The;SNES;41336
+Chaos-Engine-The--Evercade-;SNES;94811
 Chessmaster-The;SNES;41339
 Choplifter-III;SNES;41346
 Chuck-Rock;SNES;41361
 Clay-Fighter;SNES;41367
+Clay-Fighter--Evercade-;SNES;94812
 Clay-Fighter-2-Judgment-Clay;SNES;41370
+Clay-Fighter-2-Judgment-Clay--Evercade-;SNES;94813
 Claymates;SNES;41371
+Claymates--Evercade-;SNES;94814
 Cliffhanger;SNES;41373
 Clock-Tower;SNES;1135
 Congos-Caper;SNES;41380
@@ -1963,6 +2133,7 @@ Darius-Twin--Darius-Cozmic-Collection-;SNES;41431
 Darius-Twin--Darius-Cozmic-Collection-;SNES;41431
 David-Cranes-Amazing-Tennis;SNES;41440
 Daze-Before-Christmas;SNES;41443
+Daze-Before-Christmas--Evercade-;SNES;94815
 Death-and-Return-of-Superman-The;SNES;41448
 Demolition-Man;SNES;41452
 Demons-Crest;SNES;41457
@@ -1992,9 +2163,11 @@ Dragon-Quest-I-&-II;SNES;1187
 Dragon-Quest-III;SNES;1188
 Dragon-Quest-V;SNES;1190
 Dragon-Quest-VI;SNES;1192
+Dragon-View--Evercade-;SNES;94816
 Dragons-Lair;SNES;41539
 Dragon-The-Bruce-Lee-Story;SNES;41521
 Drakkhen;SNES;41541
+Drakkhen--Evercade-;SNES;94744
 DSP1--Enhancement-Chip-;SNES;41549
 DSP1-B--Enhancement-Chip-;SNES;41550
 DSP2--Enhancement-Chip-;SNES;41552
@@ -2005,6 +2178,7 @@ Earth-Defense-Force;SNES;41564
 Earth-Defense-Force--Switch-Online-;SNES;41565
 Earthworm-Jim;SNES;41570
 Earthworm-Jim-2;SNES;41573
+Earthworm-Jim-2--Evercade-;SNES;94817
 Eek!-The-Cat;SNES;41578
 Equinox;SNES;41588
 ESPN-Baseball-Tonight;SNES;41592
@@ -2027,6 +2201,7 @@ FIFA-International-Soccer;SNES;41637
 FIFA-Soccer-96;SNES;41639
 FIFA-Road-to-World-Cup-98--A8FE-;SNES;41635
 FIFA-Road-to-World-Cup-98--A8FP-;SNES;41634
+Fighters-History--Evercade-;SNES;94818
 Final-Fantasy-II--Virtual-Console-;SNES;41644
 Final-Fantasy-IV;SNES;1231
 Final-Fantasy-V;SNES;1233
@@ -2046,6 +2221,7 @@ Frank-Thomas-Big-Hurt-Baseball;SNES;41701
 Frantic-Flea;SNES;41703
 Front-Mission;SNES;1251
 Full-Throttle-All-American-Racing;SNES;41711
+Full-Throttle-All-American-Racing--Evercade-;SNES;94819
 Fun-n-Games;SNES;41713
 Garry-Kitchens-Super-Battletank;SNES;41754
 George-Foremans-KO-Boxing;SNES;41762
@@ -2053,6 +2229,7 @@ Ghoul-Patrol;SNES;41768
 Go-Go-Ackman;SNES;1261
 Gods;SNES;41778
 Goof-Troop;SNES;41786
+Gourmet-Warriors--Piko-Interactive-;SNES;94991
 Gourmet-Warriors--QUByte-Classics-;SNES;91782
 GP-1;SNES;41794
 Great-Circus-Mystery-Starring-Mickey-&-Minnie-The;SNES;41807
@@ -2072,8 +2249,10 @@ Hunt-for-Red-October-The;SNES;41913
 Hurricanes;SNES;41915
 Hyper-V-Ball;SNES;41920
 HyperZone;SNES;41921
+Ignition-Factor-The--Evercade-;SNES;94821
 Illusion-of-Time;SNES;41929
 Incantation;SNES;41935
+Incantation--Evercade-;SNES;94822
 Incredible-Crash-Dummies-The;SNES;41936
 Incredible-Hulk-The;SNES;41938
 Indiana-Jones-Greatest-Adventures;SNES;41940
@@ -2081,6 +2260,8 @@ International-Sensible-Soccer-World-Champions;SNES;41942
 International-Superstar-Soccer;SNES;41943
 International-Superstar-Soccer-Deluxe;SNES;41944
 International-Tennis-Tour;SNES;41946
+Iron-Commando--2016-07-13---Steam---NTSC-;SNES;94709
+Iron-Commando--2022-02-21---Steam---NTSC-;SNES;94710
 Iron-Commando--Piko-Interactive-;SNES;92365
 Iron-Commando--QUByte-Classics-;SNES;91784
 Itchy-&-Scratchy-Game-The;SNES;41956
@@ -2094,6 +2275,7 @@ Jim-Power-The-Lost-Dimension-in-3D--Piko-Interactive-;SNES;92366
 Jim-Power-The-Lost-Dimension-in-3D--Piko-Interactive---Enhanced-;SNES;92367
 Jim-Power-The-Lost-Dimension-in-3D--QUByte-Classics-;SNES;91785
 Jimmy-Connors-Pro-Tennis-Tour;SNES;42005
+Joe-&-Mac-2-Lost-in-the-Tropics--Evercade-;SNES;94823
 Joe-&-Mac-3-Lost-in-the-Tropics;SNES;42023
 Joe-&-Mac-Caveman-Ninja;SNES;42019
 Joe-&-Mac-Ultimate-Caveman-Collection--Retro-Bit-;SNES;92368
@@ -2129,6 +2311,7 @@ Langrisser-Der;SNES;1163
 Last-Action-Hero;SNES;42170
 Lawnmower-Man-The;SNES;42173
 Legend;SNES;42178
+Legend--Piko-Interactive-;SNES;94992
 Legend--QUByte-Classics-;SNES;91786
 Legend-of-the-Mystical-Ninja-The;SNES;42182
 Legend-of-Zelda-The-A-Link-to-the-Past;SNES;42185
@@ -2137,6 +2320,7 @@ Lemmings;SNES;42189
 Lemmings-2-The-Tribes;SNES;42191
 Lethal-Enforcers;SNES;42195
 Lethal-Weapon;SNES;42197
+Libble-Rabble--Evercade-;SNES;94824
 Lion-King-The;SNES;42202
 Lion-King-The--Disney-Classic-Games-;SNES;42205
 Lion-King-The--Disney-Classic-Games-;SNES;42206
@@ -2150,6 +2334,7 @@ Madden-NFL-94;SNES;42239
 Madden-NFL-95;SNES;42240
 Magic-Boy;SNES;42244
 Magic-Sword;SNES;42248
+Magical-Drop-2--Evercade-;SNES;94825
 Magical-Drop-II--Switch-Online-;SNES;42253
 Magical-Quest-Starring-Mickey-Mouse-The;SNES;42256
 Magical-Quest-Starring-Mickey-Mouse-The;SNES;42255
@@ -2175,6 +2360,7 @@ Mega-Man-X3--Mega-Man-X-Legacy-Collection-;SNES;42331
 Mega-lo-Mania;SNES;42332
 Metal-Combat-Falcons-Revenge;SNES;42335
 Metal-Marines;SNES;42337
+Metal-Marines--Evercade-;SNES;94826
 Michael-Jordan-Chaos-in-the-Windy-City;SNES;42342
 Mickey-Mania;SNES;42343
 Micro-Machines;SNES;42352
@@ -2215,10 +2401,12 @@ Ogre-Battle-The-March-of-the-Black-Queen--Virtual-Console-;SNES;42523
 Olympic-Summer-Games;SNES;42526
 On-the-Ball;SNES;42529
 Operation-Logic-Bomb-The-Ultimate-Search-&-Destroy;SNES;42536
+Operation-Logic-Bomb-The-Ultimate-Search-&-Destroy--Evercade-;SNES;94827
 Operation-Starfi5h;SNES;42537
 Oscar;SNES;42541
 Outlander;SNES;42549
 Pac-Attack;SNES;42551
+Pac-Attack--Evercade-;SNES;94828
 Pac-In-Time;SNES;42552
 Pac-Man-2-The-New-Adventures;SNES;42555
 Pagemaster-The;SNES;42577
@@ -2250,6 +2438,7 @@ Populous-II-Trials-of-the-Olympian-Gods;SNES;42681
 Porky-Pigs-Haunted-Holiday;SNES;42684
 Power-Drive;SNES;42687
 Power-Piggs-of-the-Dark-Age;SNES;42692
+Power-Piggs-of-the-Dark-Age--Evercade-;SNES;94746
 Power-Rangers;SNES;42694
 Power-Rangers-Zeo-Battle-Racers;SNES;42695
 PowerMonger;SNES;42699
@@ -2269,12 +2458,13 @@ Ranma-1-2;SNES;42758
 Realm;SNES;42769
 Ren-&-Stimpy-Show-The-Time-Warp;SNES;42774
 Ren-&-Stimpy-Show-The-Veediots!;SNES;42775
+Return-of-Double-Dragon--Evercade-;SNES;94830
 Revolution-X;SNES;42780
 Rise-of-the-Robots;SNES;42786
 Rival-Turf;SNES;42789
 Road-Riot-4WD;SNES;42790
 RoboCop-3;SNES;42793
-RoboCop-versus-The-Terminator;SNES;42795
+RoboCop-Versus-The-Terminator;SNES;42795
 Rock-N-Roll-Racing;SNES;42796
 Rockman-&-Forte;SNES;1535
 Rockman-&-Forte;SNES;1536
@@ -2282,6 +2472,7 @@ Rockman-X--Mega-Man-X-Legacy-Collection-;SNES;42804
 Rockman-X2--Mega-Man-X-Legacy-Collection-;SNES;42806
 Rockman-X3--Mega-Man-X-Legacy-Collection-;SNES;42812
 Run-Saber;SNES;42827
+Rushing-Beat--Evercade-;SNES;94831
 S.O.S-Sink-or-Swim;SNES;42836
 SA1-Demonstration-Program--Tech-Demo-;SNES;42837
 Samurai-Shodown;SNES;42845
@@ -2298,14 +2489,17 @@ Shadowrun;SNES;42902
 Shanghai-II-Dragons-Eye;SNES;42907
 Shaq-Fu;SNES;42910
 Side-Pocket;SNES;42957
+Side-Pocket--Evercade-;SNES;94832
 SimCity;SNES;42962
 SimCity-2000-The-Ultimate-City-Simulator;SNES;42966
 Simpsons-The-Barts-Nightmare;SNES;42971
+Skuljagger-Revolt-of-the-Westicans--Evercade-;SNES;94833
 Skyblazer;SNES;42976
 Smash-Tennis;SNES;42993
 Smurfs-Travel-the-World-The;SNES;42995
 Smurfs-The;SNES;42996
 Soccer-Kid;SNES;43000
+Soccer-Kid--Evercade-;SNES;94834
 Soccer-Shootout;SNES;43003
 Sonic-Blast-Man;SNES;43009
 Space-Ace;SNES;43027
@@ -2330,7 +2524,10 @@ Street-Fighter-II;SNES;43107
 Street-Fighter-II--Virtual-Console-;SNES;43110
 Street-Fighter-II-Turbo;SNES;43116
 Street-Fighter-II-Turbo--Virtual-Console-;SNES;43114
+Street-Fighter-V--Pirate-;SNES;94720
 Street-Racer;SNES;43122
+Street-Racer--Evercade-;SNES;94836
+Street-Racer--GOG-;SNES;94835
 Striker;SNES;43128
 Stunt-Race-FX;SNES;43131
 Sunset-Riders;SNES;43136
@@ -2353,6 +2550,7 @@ Super-Game-Boy-SGB-CPU--Enhancement-Chip-;SNES;43270
 Super-Ghouls-N-Ghosts;SNES;43273
 Super-Ghouls-N-Ghosts--Virtual-Console-Classic-Mini-Switch-Online-;SNES;43274
 Super-Goal!;SNES;43276
+Super-Goal!-2--Evercade-;SNES;94837
 Super-Hockey;SNES;43288
 Super-Ice-Hockey;SNES;43292
 Super-International-Cricket;SNES;43296
@@ -2369,7 +2567,6 @@ Super-Mario-World-2-Yoshis-Island;SNES;43351
 Super-Metroid;SNES;43356
 Super-Metroid--Virtual-Console-Classic-Mini-Switch-Online-;SNES;43355
 Super-Morph;SNES;43362
-Super-Noahs-Ark-3D--Steam-;SNES;92521
 Super-Off-Road;SNES;43377
 Super-Pang;SNES;43385
 Super-Pinball-Behind-the-Mask;SNES;43387
@@ -2431,6 +2628,8 @@ Tom-and-Jerry;SNES;43625
 Top-Gear;SNES;43629
 Top-Gear-2;SNES;43630
 Top-Gear-3000;SNES;43631
+Top-Racer--Evercade-;SNES;94747
+Top-Racer-2--Evercade-;SNES;94838
 Total-Carnage;SNES;43637
 Toy-Story;SNES;43645
 Toys-Let-the-Toy-Wars-begin!;SNES;43647
@@ -2451,6 +2650,7 @@ Ultraman;SNES;43705
 Unirally;SNES;43714
 Urban-Strike;SNES;43716
 Utopia-The-Creation-of-a-Nation;SNES;43721
+Utopia-The-Creation-of-a-Nation--Evercade-;SNES;94840
 Val-dIsere-Championship;SNES;43723
 Vegas-Stakes;SNES;43726
 Venom-Spider-Man---Separation-Anxiety;SNES;43728
@@ -2464,6 +2664,7 @@ Waterworld;SNES;43752
 Waynes-World;SNES;43754
 Were-Back!-A-Dinosaurs-Story;SNES;43755
 WeaponLord;SNES;43757
+WeaponLord--Evercade-;SNES;94841
 Where-in-the-World-Is-Carmen-Sandiego;SNES;43759
 Whirlo;SNES;43760
 Whizz;SNES;43761
@@ -2494,6 +2695,7 @@ Yoshis-Cookie;SNES;43850
 Yoshis-Safari;SNES;43852
 Young-Merlin;SNES;43855
 Zero-the-Kamikaze-Squirrel;SNES;43887
+Zero-the-Kamikaze-Squirrel--Evercade-;SNES;94842
 Zombies;SNES;43891
 Zombies--Virtual-Console-;SNES;43893
 Zool-Ninja-of-the-Nth-Dimension;SNES;43896
@@ -3012,8 +3214,8 @@ Asteroids;PS1;55189
 Atari-Anniversary-Edition-Redux;PS1;51890
 Atlantis-Segreti-dun-Mondo-Perduto;PS1;55380
 Atlantis-The-Lost-Continent;PS1;54745
-Atlantis-The-Lost-Tales;PS1;55511
 Atlantis-The-Lost-Tales;PS1;55512
+Atlantis-The-Lost-Tales;PS1;55511
 Attack-of-the-Saucerman;PS1;52620
 ATV-Mania;PS1;54781
 ATV-Racers;PS1;54736
@@ -3023,8 +3225,8 @@ Auto-Destruct;PS1;52793
 Ayrton-Senna-Kart-Duel;PS1;54725
 Ayrton-Senna-Kart-Duel-2;PS1;54545
 Aztec-The-Curse-in-the-Heart-of-the-City-of-Gold;PS1;54984
-Aztec-The-Curse-in-the-Heart-of-the-City-of-Gold;PS1;55337
 Aztec-The-Curse-in-the-Heart-of-the-City-of-Gold;PS1;55035
+Aztec-The-Curse-in-the-Heart-of-the-City-of-Gold;PS1;55337
 Azure-Dreams;PS1;52764
 B-Movie;PS1;53886
 Baby-Felix-Tennis;PS1;53808
@@ -3479,11 +3681,11 @@ Formula-1-97;PS1;50898
 Formula-1-98;PS1;50901
 Formula-GP;PS1;54101
 Formula-Karts-Special-Edition;PS1;54849
-Formula-Nippon;PS1;51004
 Formula-Nippon;PS1;55152
-Formula-One-2000;PS1;55683
+Formula-Nippon;PS1;51004
 Formula-One-2000;PS1;51563
 Formula-One-2000;PS1;51592
+Formula-One-2000;PS1;55683
 Formula-One-2001;PS1;51354
 Formula-One-2001;PS1;51183
 Formula-One-2001;PS1;52458
@@ -3587,8 +3789,8 @@ Hugo;PS1;55223
 Hugo-2;PS1;52694
 Hugo-2;PS1;55193
 Hugo-Black-Diamond-Fever;PS1;55186
-Hugo-Black-Diamond-Fever;PS1;52649
 Hugo-Black-Diamond-Fever;PS1;53710
+Hugo-Black-Diamond-Fever;PS1;52649
 Hugo-Frog-Fighter;PS1;54264
 Hugo-The-Evil-Mirror;PS1;54348
 Hugo-The-Evil-Mirror;PS1;52687
@@ -4515,8 +4717,8 @@ Walt-Disneys-The-Jungle-Book-Groove-Party;PS1;51149
 Wanted;PS1;51916
 War-Gods;PS1;54005
 WarCraft-II-The-Dark-Saga;PS1;52302
-WarGames-Defcon-1;PS1;57527
 WarGames-Defcon-1;PS1;51706
+WarGames-Defcon-1;PS1;57527
 Warhammer-Dark-Omen;PS1;50985
 Warhammer-Shadow-of-the-Horned-Rat;PS1;52349
 Warhawk-The-Red-Mercury-Missions;PS1;50739
@@ -4532,8 +4734,8 @@ WCW-Nitro;PS1;51699
 WCW-vs.-the-World;PS1;54690
 WCW-nWo-Thunder;PS1;50958
 Weakest-Link-The;PS1;51007
-Westlife-Fan-O-Mania;PS1;52931
 Westlife-Fan-O-Mania;PS1;55721
+Westlife-Fan-O-Mania;PS1;52931
 Whizz;PS1;54241
 Who-Wants-to-Be-a-Millionaire;PS1;51008
 Who-Wants-to-Be-a-Millionaire-2nd-Edition;PS1;51037
@@ -4673,6 +4875,7 @@ Diddy-Kong-Racing;N64;40405
 Donald-Duck-Quack-Attack;N64;40413
 Donkey-Kong-64;N64;40415
 Doom-64;N64;40418
+Dragon-King--Pirate-;N64;93952
 Dual-Heroes;N64;40428
 Duke-Nukem-64;N64;40433
 Duke-Nukem-Zero-Hour;N64;40431
@@ -4903,6 +5106,7 @@ Alien-Olympics;GB;45794
 Alleyway;GB;3396
 Altered-Space-A-3-D-Alien-Adventure;GB;45796
 Amazing-Penguin;GB;3397
+Amazing-Penguin--Limited-Run-Games-;GB;93845
 Amazing-Spider-Man-The;GB;3399
 Animaniacs;GB;45805
 Arcade-Classic-No.-1-Asteroids-&-Missile-Command;GB;2957
@@ -4988,6 +5192,7 @@ Daffy-Duck;GB;3414
 Darkman;GB;3032
 Darkwing-Duck;GB;45964
 David-Cranes-The-Rescue-of-Princess-Blobette;GB;45967
+David-Cranes-The-Rescue-of-Princess-Blobette--Limited-Run-Games-;GB;93846
 Days-of-Thunder;GB;3034
 Dennis;GB;45973
 Desert-Strike-Return-to-the-Gulf;GB;45974
@@ -5136,6 +5341,7 @@ Mega-Man-V;GB;46361
 Mega-Man-Dr.-Wilys-Revenge;GB;46356
 Megalit;GB;3173
 Mercenary-Force;GB;3439
+Metal-Masters--Limited-Run-Games-;GB;93847
 Metroid-II-Return-of-Samus;GB;3440
 Mickey-Mouse;GB;3441
 Mickey-Mouse-Magic-Wands!;GB;3180
@@ -5251,7 +5457,7 @@ Road-Rash;GB;3271
 Robin-Hood-Prince-of-Thieves;GB;46666
 RoboCop;GB;3276
 RoboCop-2;GB;3274
-RoboCop-versus-The-Terminator;GB;46673
+RoboCop-Versus-The-Terminator;GB;46673
 Rodland;GB;3277
 Sa-Ga-2-Hihou-Densetsu--Collection-of-SaGa-;GB;46685
 Sa-Ga-3-Jikuu-no-Hasha--Collection-of-SaGa-;GB;46687
@@ -5294,9 +5500,12 @@ Star-Trek-25th-Anniversary;GB;3312
 Star-Trek-The-Next-Generation;GB;3314
 Star-Wars;GB;46784
 Star-Wars;GB;3315
+Star-Wars--Limited-Run-Games-;GB;93853
 Star-Wars-The-Empire-Strikes-Back;GB;46786
+Star-Wars-The-Empire-Strikes-Back--Limited-Run-Games-;GB;93854
 Stargate;GB;3318
 StarHawk;GB;46787
+StarHawk--Limited-Run-Games-;GB;93855
 Street-Fighter-II;GB;3464
 Street-Racer;GB;3320
 Sunsoft-Grand-Prix;GB;46792
@@ -5305,8 +5514,10 @@ Super-Chase-H.Q.;GB;3465
 Super-Hunchback;GB;46806
 Super-James-Pond;GB;46808
 Super-Kick-Off;GB;46809
+Super-Mario-4--Pirate-;GB;93856
 Super-Mario-Land;GB;3466
 Super-Mario-Land-2-6-Golden-Coins;GB;3467
+Super-Mario-Land-4--Pirate-;GB;93857
 Super-Off-Road;GB;3325
 Super-R.C.-Pro-Am;GB;3468
 Super-Star-Wars-Return-of-the-Jedi;GB;3316
@@ -5314,6 +5525,7 @@ Superman;GB;3327
 Swamp-Thing;GB;3328
 T2-The-Arcade-Game;GB;3331
 Tail-Gator;GB;3332
+Tail-Gator--Limited-Run-Games-;GB;93858
 TaleSpin;GB;46834
 Tamagotchi;GB;3469
 Tarzan-Lord-of-the-Jungle;GB;3334
@@ -5347,6 +5559,7 @@ Track-&-Field;GB;3355
 Track-Meet;GB;3356
 Trax;GB;3357
 Trip-World;GB;46889
+Trip-World--Limited-Run-Games-;GB;93859
 True-Lies;GB;3358
 Tumble-Pop;GB;3359
 Turok-Battle-of-the-Bionosaurs;GB;3477
@@ -5508,7 +5721,7 @@ Dragon-Crystal--Virtual-Console-;GG;89561
 Dragon-The-Bruce-Lee-Story;GG;89558
 Dynamite-Headdy;GG;89565
 Earthworm-Jim;GG;89572
-Ecco-The-Dolphin;GG;89575
+Ecco-the-Dolphin;GG;89575
 Ecco-The-Tides-of-Time;GG;89573
 Ernie-Els-Golf;GG;89580
 Evander-Holyfields-Real-Deal-Boxing;GG;89582
@@ -5596,7 +5809,7 @@ Rise-of-the-Robots;GG;89893
 Ristar;GG;89894
 Road-Rash;GG;89901
 RoboCop-3;GG;89902
-RoboCop-versus-The-Terminator;GG;89903
+RoboCop-Versus-The-Terminator;GG;89903
 Sega-Game-Pack-4-in-1;GG;89911
 Sensible-Soccer-European-Champions;GG;89913
 Shining-Force-The-Sword-of-Hajya--Virtual-Console-;GG;89923
@@ -5992,6 +6205,7 @@ Ready-2-Rumble-Boxing;GBC;47767
 Reservoir-Rat;GBC;47770
 Resident-Evil-Gaiden;GBC;47773
 Return-of-the-Ninja;GBC;47774
+Return-of-the-Ninja--Limited-Run-Games-;GBC;93868
 Rhino-Rumble;GBC;4270
 Rip-Tide-Racer;GBC;47775
 Road-Champs-BXS-Stunt-Biking;GBC;4271
@@ -6027,6 +6241,7 @@ Shadowgate-Classic;GBC;4103
 Shamus;GBC;4290
 Shanghai-Pocket;GBC;47830
 Shantae--GBA-Enhanced---Switch-;GBC;87759
+Shantae--Limited-Run-Games-;GBC;93869
 Shantae--Switch-;GBC;87758
 Shelly-Club;GBC;47833
 Shrek-Fairy-Tale-Freakdown;GBC;4294
@@ -6092,6 +6307,7 @@ Toy-Story-2;GBC;4345
 Toy-Story-Racer;GBC;47971
 Toy-Story-Racer;GBC;4346
 Trick-Boarder;GBC;47974
+Trip-World-DX--Limited-Run-Games-;GBC;93870
 Triple-Play-2001;GBC;4348
 Turok-2-Seeds-of-Evil;GBC;4351
 Turok-3-Shadow-of-Oblivion;GBC;4352
@@ -6121,6 +6337,7 @@ Winnie-the-Pooh-Adventures-in-the-100-Acre-Wood;GBC;48014
 Woody-Woodpecker;GBC;48020
 Woody-Woodpecker-Racing;GBC;48022
 Worms-Armageddon;GBC;48025
+Worms-Armageddon--Limited-Run-Games-;GBC;93871
 WWF-Attitude;GBC;4377
 WWF-Betrayal;GBC;4378
 WWF-WrestleMania-2000;GBC;4379
@@ -6128,6 +6345,7 @@ X-Men-Mutant-Academy;GBC;4380
 X-Men-Mutant-Wars;GBC;4381
 X-Men-Wolverines-Rage;GBC;48028
 Xena-Warrior-Princess;GBC;4383
+Xtreme-Sports--Limited-Run-Games-;GBC;93872
 Xtreme-Sports--Switch-;GBC;89373
 Xtreme-Wheels;GBC;48029
 Yars-Revenge;GBC;4386
@@ -6386,6 +6604,7 @@ Duel-Masters-Kaijudo-Showdown;GBA;48590
 Duel-Masters-Sempai-Legends;GBA;48593
 Duel-Masters-Shadow-of-the-Code;GBA;48594
 Duke-Nukem-Advance;GBA;48598
+Duke-Nukem-Advance--Evercade-;GBA;93804
 Dungeons-&-Dragons-Eye-of-the-Beholder;GBA;48599
 Dynasty-Warriors-Advance;GBA;48601
 E.T.-The-Extra-Terrestrial;GBA;48602
@@ -6830,11 +7049,13 @@ Princess-Natasha-Student-Secret-Agent-Princess;GBA;49694
 Pro-Beach-Soccer;GBA;49696
 Pro-Tennis-WTA-Tour;GBA;49698
 Punch-King-Arcade-Boxing;GBA;49703
+Punch-King-Arcade-Boxing--Evercade-;GBA;93805
 Puyo-Pop;GBA;49706
 Puyo-Pop-Fever;GBA;49707
 Quad-Desert-Fury;GBA;5646
 R-Type-III-The-Third-Lightning;GBA;49715
 Racing-Fever;GBA;49717
+Racing-Fever--Evercade-;GBA;93806
 Racing-Gears-Advance;GBA;49718
 Rampage-Puzzle-Attack;GBA;5650
 Rapala-Pro-Fishing;GBA;5651
@@ -6985,6 +7206,7 @@ Stuntman;GBA;50008
 Sum-of-All-Fears-The;GBA;50010
 Super-Black-Bass-Advance;GBA;50015
 Super-Bubble-Pop;GBA;50016
+Super-Bubble-Pop--Evercade-;GBA;93807
 Super-Bust-A-Move;GBA;50017
 Super-Dodge-Ball-Advance;GBA;50019
 Super-Dropzone-Intergalactic-Rescue-Mission;GBA;50024
@@ -7112,6 +7334,7 @@ World-Championship-Poker;GBA;50259
 World-Poker-Tour;GBA;50260
 World-Tennis-Stars;GBA;50263
 Worms-Blast;GBA;50264
+Worms-Blast--Evercade-;GBA;93812
 Worms-World-Party;GBA;50265
 WWE-Road-to-WrestleMania-X8;GBA;50267
 WWE-Survivor-Series;GBA;5905
@@ -8546,6 +8769,7 @@ Ninja-Gaiden-Dragon-Sword;DS;32830
 Ninja-Reflex;DS;32833
 Ninjatown;DS;32837
 Nintendo-DS-Browser;DS;23673
+Nintendo-DS-Guide;DS;94997
 Nintendo-Presents-Crossword-Collection;DS;32841
 Nintendo-Presents-Style-Boutique;DS;32842
 Nintendo-Presents-Style-Boutique--Wii-U-Virtual-Console-;DS;91943
@@ -8558,12 +8782,13 @@ Nintendogs-Labrador-&-Friends;DS;32863
 Nitro-EVA.--CTR---Ver11.0---2010-10-27---Program-;DS;92079
 Nitro-EVA.--CTR---Ver11.1---2011-12-08---Program-;DS;92080
 Nitro-EVA.--USG---Ver10.0---2008-06-17---Program-;DS;82670
+Nitro-EVA.--USG---Ver6.0---2005-11-11---Program-;DS;32892
+Nitro-EVA.--USG---Ver6.0---2005-11-11---Program-;DS;32892
 Nitro-EVA.--USG---Ver8.0---2006-12-05---Program-;DS;92081
 Nitro-EVA.--USG---Ver9.0---2007-04-09---Program-;DS;92082
 Nitro-EVA.--Ver5.1---2005-06-21---Program-;DS;92078
 Noddy-in-Toyland;DS;32877
 Noddy-in-Toyland;DS;32878
-NTR-Aging--Program-;DS;32892
 OK!-First-for-Celebrity-News-Puzzle-Stars;DS;32923
 Okamiden;DS;32926
 Oktoberfest-The-Official-Game;DS;32928

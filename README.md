@@ -72,6 +72,7 @@ Just copy the MiyooVimmClient folder into `/mnt/SDCARD/App/` on your MMP and the
 ## Changelog
 
 ### v1.7
+   - Updated database
    - Fixed download link from Vimm's Lair portal
 
 ### v1.6
