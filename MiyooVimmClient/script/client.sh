@@ -171,7 +171,7 @@ get_mediaId() {
 		return
 	fi
 	local MEDIA = () ; unset MEDIA ; unset MEDIA
-	echo "$response" | tr ';' '\n' | grep -i "var allMedia = .*" | sed 's/.*\[/\[/' >> allMedia
+	echo "$response" | tr ';' '\n' | grep -i "let media=.*" | sed 's/.*\[/\[/' >> allMedia
 	ids_and_titles=$(jq -r '.[] | "\(.ID) \(.GoodTitle)"' allMedia)
 	echo "$ids_and_titles" | while IFS=" " read -r id encoded_title; do
 		goodTitle=$(decode_base64 "$encoded_title")
@@ -243,11 +243,11 @@ get_filePath() {
 }
 
 get_gameName() {
-	url=https://download2.vimm.net/?mediaId=$mediaId
+	url=https://dl2.vimm.net/?mediaId=$mediaId
 	headers=$(curl -sI -X GET -H "Referer: https://vimm.net/vault/$vaultId" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" --insecure $url)
 	gameName=$(echo "$headers" | grep -o -E "filename=.*" | cut -d'=' -f2 | cut -d'"' -f2)
 	if [ "$gameName" = "" ]; then
-		url=https://download3.vimm.net/?mediaId=$mediaId
+		url=https://dl3.vimm.net/?mediaId=$mediaId
 		headers=$(curl -sI -X GET -H "Referer: https://vimm.net/vault/$vaultId" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" --insecure $url)
 		gameName=$(echo "$headers" | grep -o -E "filename=.*" | cut -d'=' -f2 | cut -d'"' -f2)
 	fi
